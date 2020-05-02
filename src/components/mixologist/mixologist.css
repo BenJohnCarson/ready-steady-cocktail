@@ -1,0 +1,26 @@
+.mixologist {
+  display: grid;
+  grid-template-columns: 20px main auto 20px;
+  grid-template-rows: 30px 20px 30px 20px;
+  grid-template-areas:
+    "name name name"
+    ". . ."
+    ". search ."
+    ". . ."
+    ". ingredients. ";
+  grid-auto-rows: minmax(40px, auto);
+  border: 2px solid blue;
+}
+
+.name {
+  grid-area: name;
+}
+
+.ingredient-search {
+  grid-area: search;
+}
+
+.ingredient-list {
+  grid-area: ingredients;
+  overflow: scroll;
+}
