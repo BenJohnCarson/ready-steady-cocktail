@@ -1,0 +1,21 @@
+.nav {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "title"
+    "list";
+  gap: 20px;
+}
+
+.nav__title {
+  grid-area: title;
+}
+
+.nav__list {
+  grid-area: list;
+  display: grid;
+  grid-template-columns: 1fr;
+  list-style-type: none;
+  margin: 0;
+}

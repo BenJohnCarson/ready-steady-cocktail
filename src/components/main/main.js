@@ -1,13 +1,18 @@
 import React from "react";
 import "./main.css";
 import Mixologist from "../mixologist/mixologist";
+import {useMixologistsState} from "../../context/MixologistsContext";
 
 const Main = () => {
+  const { mixologists } = useMixologistsState();
+
   return (
     <section className="main">
-      <Mixologist></Mixologist>
-      <Mixologist></Mixologist>
-      <Mixologist></Mixologist>
+      {
+        mixologists.map((mixologist) => {
+          return <Mixologist key={mixologist.id}></Mixologist>
+        })
+      }
     </section>
   );
 };

@@ -1,7 +1,7 @@
 .mixologist {
   display: grid;
-  grid-template-columns: 20px main auto 20px;
-  grid-template-rows: 30px 20px 30px 20px;
+  grid-template-columns: 20px [main] auto 20px;
+  grid-template-rows: 30px 20px fit-content(100%) 20px;
   grid-template-areas:
     "name name name"
     ". . ."
@@ -9,11 +9,18 @@
     ". . ."
     ". ingredients. ";
   grid-auto-rows: minmax(40px, auto);
-  border: 2px solid blue;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #aaaaaa;
 }
 
 .name {
   grid-area: name;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid grey;
 }
 
 .ingredient-search {

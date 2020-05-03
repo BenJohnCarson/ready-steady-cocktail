@@ -3,7 +3,6 @@
   grid-template-columns: auto;
   grid-auto-rows: 300px;
   gap: 10px 10px;
-  border: 2px solid red;
 }
 @media only screen and (min-width: 768px) {
   .main {

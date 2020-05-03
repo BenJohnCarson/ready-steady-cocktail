@@ -1,6 +1,8 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import "./header.css";
+import SelectMixologists from "./selectMixologists/selectMixologists";
 
 const Header = ({ siteTitle }) => (
   <header
@@ -9,14 +11,15 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <div
+    <nav
+      className="nav"
       style={{
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0 }} className="nav__title">
         <Link
           to="/"
           style={{
@@ -27,7 +30,12 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-    </div>
+      <ul className="nav__list">
+        <li>
+          <SelectMixologists></SelectMixologists>
+        </li>
+      </ul>
+    </nav>
   </header>
 );
 
