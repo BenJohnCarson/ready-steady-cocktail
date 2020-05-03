@@ -5,7 +5,9 @@ const MixologistsStateContext = React.createContext();
 const MixologistsDispatchContext = React.createContext();
 
 function MixologistsProvider({ children }) {
-  const [state, dispatch] = React.useReducer(mixologistsReducer, { mixologists: [] });
+  const [state, dispatch] = React.useReducer(mixologistsReducer, {
+    mixologists: [],
+  });
   return (
     <MixologistsStateContext.Provider value={state}>
       <MixologistsDispatchContext.Provider value={dispatch}>

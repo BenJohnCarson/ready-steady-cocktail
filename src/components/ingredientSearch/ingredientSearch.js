@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Select from "react-select";
-import {ApplicationContext} from "../../context/ApplicationContext";
+import { ApplicationContext } from "../../context/ApplicationContext";
 
 const IngredientSearch = ({ addIngredient }) => {
   const { ingredients } = useContext(ApplicationContext);

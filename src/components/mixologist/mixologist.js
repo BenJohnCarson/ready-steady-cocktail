@@ -1,16 +1,28 @@
 import React from "react";
 import "./mixologist.css";
 import IngredientSearch from "../ingredientSearch/ingredientSearch";
+import { useMixologistsDispatch } from "../../context/MixologistsContext";
+import { ADD_INGREDIENT } from "../../reducers/mixologistsReducer";
 
-const Mixologist = () => {
-  const addIngredient = ingredient => {};
+const Mixologist = ({ mixologist }) => {
+  const dispatch = useMixologistsDispatch();
+  const addIngredient = ingredient => {
+    dispatch({
+      type: ADD_INGREDIENT,
+      payload: { id: mixologist.id, ingredient },
+    });
+  };
 
   return (
     <article className="mixologist">
       <input className="name" placeholder="Enter a name"></input>
       <IngredientSearch addIngredient={addIngredient}></IngredientSearch>
       <ul className="ingredient-list">
-        <li className="ingredient">Vodka</li>
+        {mixologist.ingredients.map((ingredient, index) => (
+          <li key={index} className="ingredient">
+            {ingredient.name}
+          </li>
+        ))}
       </ul>
     </article>
   );

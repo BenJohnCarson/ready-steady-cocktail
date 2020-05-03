@@ -8,13 +8,15 @@ const SelectMixologists = () => {
   const dispatch = useMixologistsDispatch();
   const handleOnChange = option =>
     dispatch({ type: SET_MIXOLOGISTS, payload: option.value });
-  
-  const {constants: {MAX_MIXOLOGISTS, MIN_MIXOLOGISTS}} = useContext(ApplicationContext);
+
+  const {
+    constants: { MAX_MIXOLOGISTS, MIN_MIXOLOGISTS },
+  } = useContext(ApplicationContext);
   const options = useMemo(() => {
     let options = [];
 
-    for(let value = MIN_MIXOLOGISTS; value <= MAX_MIXOLOGISTS; value++) {
-      options.push({value});
+    for (let value = MIN_MIXOLOGISTS; value <= MAX_MIXOLOGISTS; value++) {
+      options.push({ value });
     }
     return options;
   }, [MAX_MIXOLOGISTS, MIN_MIXOLOGISTS]);
