@@ -1,11 +1,11 @@
-.main {
+.mixologistList {
   display: grid;
   grid-template-columns: auto;
   grid-auto-rows: 300px;
   gap: 10px 10px;
 }
 @media only screen and (min-width: 768px) {
-  .main {
+  .mixologistList {
     grid-template-columns: auto auto;
   }
 }

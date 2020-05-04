@@ -1,11 +1,13 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Main from "../components/main/main";
+import "./index.css";
 import { MixologistsProvider } from "../context/MixologistsContext";
 import { ApplicationContext } from "../context/ApplicationContext";
+import MixologistList from "../components/mixologistList/mixologistList";
+import CommonIngredients from "../components/commonIngredients/commonIngredients";
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -37,8 +39,11 @@ const IndexPage = () => {
       <MixologistsProvider>
         <Layout>
           <SEO title="Home" />
-          <Main />
-          <Link to="/page-2/">Go to page 2</Link>
+          <section className="console">
+            <CommonIngredients />
+            <MixologistList />
+          </section>
+          {/* <Link to="/page-2/">Go to page 2</Link> */}
         </Layout>
       </MixologistsProvider>
     </ApplicationContext.Provider>
