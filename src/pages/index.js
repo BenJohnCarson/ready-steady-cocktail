@@ -34,9 +34,28 @@ const IndexPage = () => {
     allIngredientsJson: { nodes: ingredients },
   } = data;
 
+  // Test loading data from a db
+  const test = [
+    {
+      id: 'sefseseff',
+      name: "Ben",
+      ingredients: [{name: "Rum"}, {name: "Gin"}],
+    },
+    {
+      id: 'sefsef',
+      name: "Si",
+      ingredients: [{name: "Rum"}],
+    },
+    {
+      id: 'seffsef',
+      name: "Andy",
+      ingredients: [{name: "Rum"}, {name: "Vodka"}],
+    },
+  ]
+
   return (
     <ApplicationContext.Provider value={{ constants, ingredients }}>
-      <MixologistsProvider>
+      <MixologistsProvider defaultState={test}>
         <Layout>
           <SEO title="Home" />
           <section className="console">

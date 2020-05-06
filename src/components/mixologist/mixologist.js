@@ -48,6 +48,7 @@ const Mixologist = ({ mixologist }) => {
         className="mixologist__name"
         placeholder="Enter a name"
         onBlur={setName}
+        defaultValue={mixologist.name}
       ></input>
       <IngredientSearch
         className="mixologist__ingredient-search"

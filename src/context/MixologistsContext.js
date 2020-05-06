@@ -4,8 +4,8 @@ import { mixologistsReducer } from "../reducers/mixologistsReducer";
 const MixologistsStateContext = React.createContext();
 const MixologistsDispatchContext = React.createContext();
 
-function MixologistsProvider({ children }) {
-  const [state, dispatch] = React.useReducer(mixologistsReducer, []);
+function MixologistsProvider({ children, defaultState = [] }) {
+  const [state, dispatch] = React.useReducer(mixologistsReducer, defaultState);
   return (
     <MixologistsStateContext.Provider value={state}>
       <MixologistsDispatchContext.Provider value={dispatch}>
