@@ -7,7 +7,7 @@ const MixologistList = () => {
   const { mixologists } = useMixologistsState();
 
   return (
-    <section className="mixologistList">
+    <section className="mixologist-list">
       {mixologists.map(mixologist => {
         return (
           <Mixologist key={mixologist.id} mixologist={mixologist}></Mixologist>

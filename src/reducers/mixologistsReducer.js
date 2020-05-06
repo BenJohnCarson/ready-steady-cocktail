@@ -1,4 +1,5 @@
 export const SET_MIXOLOGISTS = "SET_MIXOLOGISTS";
+export const SET_NAME = "SET_NAME";
 export const ADD_INGREDIENT = "ADD_INGREDIENT";
 export const REMOVE_INGREDIENT = "REMOVE_INGREDIENT";
 
@@ -6,6 +7,9 @@ export const mixologistsReducer = (state, action) => {
   switch (action.type) {
     case SET_MIXOLOGISTS: {
       return setMixologists(action.payload);
+    }
+    case SET_NAME: {
+      return setName(action.payload, state);
     }
     case ADD_INGREDIENT: {
       return addIngredient(action.payload, state);
@@ -25,10 +29,20 @@ function setMixologists(count) {
   for (let i = 0; i < count; i++) {
     mixologists.push({
       id: i,
+      name: '',
       ingredients: [],
     });
   }
   return { mixologists };
+}
+
+function setName({mixologist, name}, state) {
+  const updatedMixologist = {
+    ...mixologist,
+    name
+  }
+
+  return updateAndSortMixologists(updatedMixologist, state);
 }
 
 function addIngredient({ mixologist, ingredient: selectedIngredient }, state) {

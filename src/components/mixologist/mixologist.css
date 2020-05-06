@@ -14,7 +14,7 @@
   box-shadow: 5px 5px 5px #aaaaaa;
 }
 
-.name {
+.mixologist__name {
   grid-area: name;
   text-align: center;
   border-top: none;
@@ -23,11 +23,11 @@
   border-bottom: 2px solid grey;
 }
 
-.ingredient-search {
+.mixologist__ingredient-search {
   grid-area: search;
 }
 
-.ingredient-list {
+.mixologist__ingredient-list {
   grid-area: ingredients;
   overflow: scroll;
 }
