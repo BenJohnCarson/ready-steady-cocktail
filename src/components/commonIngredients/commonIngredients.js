@@ -3,7 +3,7 @@ import { useMixologistsState } from "../../context/MixologistsContext";
 import Ingredient from "../ingredient/ingredient";
 
 const CommonIngredients = () => {
-  const { mixologists } = useMixologistsState();
+  const mixologists = useMixologistsState();
   const [commonIngredients, setCommonIngredients] = useState([]);
   const intersectMixologists = useCallback(allMixologistIngredients => {
     return allMixologistIngredients[0].filter(ingredient => {

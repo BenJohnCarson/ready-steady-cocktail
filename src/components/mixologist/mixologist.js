@@ -4,7 +4,7 @@ import { useMixologistsDispatch } from "../../context/MixologistsContext";
 import {
   ADD_INGREDIENT,
   REMOVE_INGREDIENT,
-  SET_NAME
+  SET_NAME,
 } from "../../reducers/mixologistsReducer";
 import IngredientSearch from "../ingredientSearch/ingredientSearch";
 import Ingredient from "../ingredient/ingredient";
@@ -13,39 +13,42 @@ const Mixologist = ({ mixologist }) => {
   const dispatch = useMixologistsDispatch();
   const addIngredient = useCallback(
     ingredient => {
+      const { id } = mixologist;
+
       dispatch({
         type: ADD_INGREDIENT,
-        payload: { mixologist, ingredient },
+        payload: { id, ingredient },
       });
     },
     [mixologist, dispatch]
   );
   const removeIngredient = useCallback(
     ingredient => {
+      const { id } = mixologist;
+
       dispatch({
         type: REMOVE_INGREDIENT,
-        payload: { mixologist, ingredient },
+        payload: { id, ingredient },
       });
     },
     [mixologist, dispatch]
   );
-  const setName = useCallback(
-    ({ target: { value: name}}) => {
-      dispatch({
-        type: SET_NAME,
-        payload: {mixologist, name}
-      })
-    }
-  )
+  const setName = useCallback(({ target: { value: name } }) => {
+    const { id } = mixologist;
+
+    dispatch({
+      type: SET_NAME,
+      payload: { id, name },
+    });
+  });
 
   return (
     <article className="mixologist">
-      <input 
-        className="mixologist__name" 
+      <input
+        className="mixologist__name"
         placeholder="Enter a name"
         onBlur={setName}
-      >
-      </input>
+      ></input>
       <IngredientSearch
         className="mixologist__ingredient-search"
         addIngredient={addIngredient}

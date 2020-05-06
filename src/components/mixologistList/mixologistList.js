@@ -4,7 +4,7 @@ import Mixologist from "../mixologist/mixologist";
 import { useMixologistsState } from "../../context/MixologistsContext";
 
 const MixologistList = () => {
-  const { mixologists } = useMixologistsState();
+  const mixologists = useMixologistsState();
 
   return (
     <section className="mixologist-list">

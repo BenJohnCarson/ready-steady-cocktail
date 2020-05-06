@@ -3,19 +3,19 @@ export const SET_NAME = "SET_NAME";
 export const ADD_INGREDIENT = "ADD_INGREDIENT";
 export const REMOVE_INGREDIENT = "REMOVE_INGREDIENT";
 
-export const mixologistsReducer = (state, action) => {
+export const mixologistsReducer = (mixologists, action) => {
   switch (action.type) {
     case SET_MIXOLOGISTS: {
       return setMixologists(action.payload);
     }
     case SET_NAME: {
-      return setName(action.payload, state);
+      return setName(action.payload, mixologists);
     }
     case ADD_INGREDIENT: {
-      return addIngredient(action.payload, state);
+      return addIngredient(action.payload, mixologists);
     }
     case REMOVE_INGREDIENT: {
-      return removeIngredient(action.payload, state);
+      return removeIngredient(action.payload, mixologists);
     }
     default: {
       throw new Error(`Unhandled action type: ${action.type}`);
@@ -29,63 +29,49 @@ function setMixologists(count) {
   for (let i = 0; i < count; i++) {
     mixologists.push({
       id: i,
-      name: '',
+      name: "",
       ingredients: [],
     });
   }
-  return { mixologists };
+  return mixologists;
 }
 
-function setName({mixologist, name}, state) {
-  const updatedMixologist = {
-    ...mixologist,
-    name
-  }
-
-  return updateAndSortMixologists(updatedMixologist, state);
+function setName({ id, name }, mixologists) {
+  return mixologists.map(mixologist =>
+    mixologist.id === id ? { ...mixologist, name } : mixologist
+  );
 }
 
-function addIngredient({ mixologist, ingredient: selectedIngredient }, state) {
-  if (
-    mixologist.ingredients.find(
-      ingredient => ingredient.name === selectedIngredient.name
-    )
-  ) {
-    return state;
-  }
-  const updatedMixologist = {
-    ...mixologist,
-    ingredients: [...mixologist.ingredients, { ...selectedIngredient }],
-  };
-
-  return updateAndSortMixologists(updatedMixologist, state);
+function addIngredient({ id, ingredient: selectedIngredient }, mixologists) {
+  return mixologists.map(mixologist => {
+    if (mixologist.id === id) {
+      return mixologist.ingredients.find(
+        ingredient => ingredient.name === selectedIngredient.name
+      )
+        ? mixologist
+        : {
+            ...mixologist,
+            ingredients: [...mixologist.ingredients, { ...selectedIngredient }],
+          };
+    } else {
+      return mixologist;
+    }
+  });
 }
 
-function removeIngredient(
-  { mixologist, ingredient: selectedIngredient },
-  state
-) {
-  const updatedMixologist = {
-    ...mixologist,
-    ingredients: [
-      ...mixologist.ingredients.filter(
-        ingredient => ingredient.name !== selectedIngredient.name
-      ),
-    ],
-  };
-
-  return updateAndSortMixologists(updatedMixologist, state);
-}
-
-function updateAndSortMixologists(updatedMixologist, state) {
-  const updatedMixologistList = [
-    updatedMixologist,
-    ...state.mixologists.filter(
-      mixologist => mixologist.id !== updatedMixologist.id
-    ),
-  ];
-
-  updatedMixologistList.sort((a, b) => a.id - b.id);
-
-  return { ...state, mixologists: updatedMixologistList };
+function removeIngredient({ id, ingredient: selectedIngredient }, mixologists) {
+  return mixologists.map(mixologist => {
+    if (mixologist.id === id) {
+      return {
+        ...mixologist,
+        ingredients: [
+          ...mixologist.ingredients.filter(
+            ingredient => ingredient.name !== selectedIngredient.name
+          ),
+        ],
+      };
+    } else {
+      return mixologist;
+    }
+  });
 }
