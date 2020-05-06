@@ -1,5 +1,6 @@
 import React from "react";
-// import { Link } from "gatsby";
+import * as firebase from "firebase/app";
+// import "firebase/database"
 import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -8,6 +9,13 @@ import { MixologistsProvider } from "../context/MixologistsContext";
 import { ApplicationContext } from "../context/ApplicationContext";
 import MixologistList from "../components/mixologistList/mixologistList";
 import CommonIngredients from "../components/commonIngredients/commonIngredients";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBF48g22jZevys2ZV110JDjNGNPGpL75No",
+  authDomain: "ready-steady-cocktail.firebaseapp.com",
+  databaseURL: "https://ready-steady-cocktail.firebaseio.com",
+  storageBucket: "ready-steady-cocktail.appspot.com",
+};
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -34,28 +42,13 @@ const IndexPage = () => {
     allIngredientsJson: { nodes: ingredients },
   } = data;
 
-  // Test loading data from a db
-  const test = [
-    {
-      id: 'sefseseff',
-      name: "Ben",
-      ingredients: [{name: "Rum"}, {name: "Gin"}],
-    },
-    {
-      id: 'sefsef',
-      name: "Si",
-      ingredients: [{name: "Rum"}],
-    },
-    {
-      id: 'seffsef',
-      name: "Andy",
-      ingredients: [{name: "Rum"}, {name: "Vodka"}],
-    },
-  ]
+  if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+  }
 
   return (
     <ApplicationContext.Provider value={{ constants, ingredients }}>
-      <MixologistsProvider defaultState={test}>
+      <MixologistsProvider>
         <Layout>
           <SEO title="Home" />
           <section className="console">
