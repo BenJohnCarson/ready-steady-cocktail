@@ -1,4 +1,4 @@
-import React, { useContext, useMemo } from "react";
+import React, { useContext, useMemo, useCallback } from "react";
 import Select from "react-select";
 import { useMixologistsDispatch } from "../../context/MixologistsContext";
 import { ApplicationContext } from "../../context/ApplicationContext";
@@ -6,9 +6,6 @@ import { SET_MIXOLOGISTS } from "../../reducers/mixologistsReducer";
 
 const SelectMixologists = () => {
   const dispatch = useMixologistsDispatch();
-  const handleOnChange = option =>
-    dispatch({ type: SET_MIXOLOGISTS, payload: option.value });
-
   const {
     constants: { MAX_MIXOLOGISTS, MIN_MIXOLOGISTS },
   } = useContext(ApplicationContext);
@@ -20,13 +17,18 @@ const SelectMixologists = () => {
     }
     return options;
   }, [MAX_MIXOLOGISTS, MIN_MIXOLOGISTS]);
+  const getOptionValue = useCallback(option => option.value, []);
+  const handleOnChange = useCallback(
+    option => dispatch({ type: SET_MIXOLOGISTS, payload: option.value }),
+    [dispatch]
+  );
 
   return (
     <Select
       placeholder="How many mixologists?"
       options={options}
-      getOptionValue={option => option.value}
-      getOptionLabel={option => option.value}
+      getOptionValue={getOptionValue}
+      getOptionLabel={getOptionValue}
       onChange={handleOnChange}
     ></Select>
   );

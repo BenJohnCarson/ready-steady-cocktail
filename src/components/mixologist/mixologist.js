@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import "./mixologist.css";
 import { useMixologistsDispatch } from "../../context/MixologistsContext";
 import {
@@ -10,18 +10,24 @@ import Ingredient from "../ingredient/ingredient";
 
 const Mixologist = ({ mixologist }) => {
   const dispatch = useMixologistsDispatch();
-  const addIngredient = ingredient => {
-    dispatch({
-      type: ADD_INGREDIENT,
-      payload: { mixologist, ingredient },
-    });
-  };
-  const removeIngredient = ingredient => {
-    dispatch({
-      type: REMOVE_INGREDIENT,
-      payload: { mixologist, ingredient },
-    });
-  };
+  const addIngredient = useCallback(
+    ingredient => {
+      dispatch({
+        type: ADD_INGREDIENT,
+        payload: { mixologist, ingredient },
+      });
+    },
+    [mixologist, dispatch]
+  );
+  const removeIngredient = useCallback(
+    ingredient => {
+      dispatch({
+        type: REMOVE_INGREDIENT,
+        payload: { mixologist, ingredient },
+      });
+    },
+    [mixologist, dispatch]
+  );
 
   return (
     <article className="mixologist">

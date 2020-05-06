@@ -1,14 +1,18 @@
-import React, { useContext } from "react";
+import React, { useContext, useCallback } from "react";
 import Select from "react-select";
 import { ApplicationContext } from "../../context/ApplicationContext";
 
 const IngredientSearch = ({ addIngredient }) => {
   const { ingredients } = useContext(ApplicationContext);
-  const handleOnChange = ingredient => {
-    if (ingredient) {
-      addIngredient(ingredient);
-    }
-  };
+  const getOptionValue = useCallback(option => option.name, []);
+  const handleOnChange = useCallback(
+    ingredient => {
+      if (ingredient) {
+        addIngredient(ingredient);
+      }
+    },
+    [addIngredient]
+  );
 
   return (
     <Select
@@ -16,8 +20,8 @@ const IngredientSearch = ({ addIngredient }) => {
       placeholder="Start typing an ingredient"
       options={ingredients}
       isClearable={true}
-      getOptionValue={option => option.name}
-      getOptionLabel={option => option.name}
+      getOptionValue={getOptionValue}
+      getOptionLabel={getOptionValue}
       onChange={handleOnChange}
     />
   );
