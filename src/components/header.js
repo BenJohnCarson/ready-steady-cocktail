@@ -6,7 +6,7 @@ import "./header.css";
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#18181E`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#DEC79B`,
             textDecoration: `none`,
           }}
         >
