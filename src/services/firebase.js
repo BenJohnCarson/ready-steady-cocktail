@@ -8,8 +8,19 @@ const firebaseConfig = {
   storageBucket: "ready-steady-cocktail.appspot.com",
 };
 
-if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-}
+export default new Proxy(
+  {
+    get db() {
+      return firebase.database();
+    },
+  },
+  {
+    get: function (target, name) {
+      if (!firebase.apps.length) {
+        firebase.initializeApp(firebaseConfig);
+      }
 
-export const db = firebase.database();
+      return target[name];
+    },
+  }
+);

@@ -5,7 +5,7 @@ import {
 } from "../../context/MixologistsContext";
 import { ApplicationContext } from "../../context/ApplicationContext";
 import Ingredient from "../ingredient/ingredient";
-import { db } from "../../services/firebase";
+import firebase from "../../services/firebase";
 
 const CommonIngredients = () => {
   // const mixologists = useMixologistsState();
@@ -35,7 +35,9 @@ const CommonIngredients = () => {
   // }, [mixologists, intersectMixologists]);
 
   useEffect(() => {
-    const sessionIngredientsRef = db.ref(`/sessions/${session}/ingredients`);
+    const sessionIngredientsRef = firebase.db.ref(
+      `/sessions/${session}/ingredients`
+    );
 
     sessionIngredientsRef.on("value", sessionIngredientsSnap => {
       let updateCommonIngredients = [];
@@ -54,7 +56,7 @@ const CommonIngredients = () => {
       setCommonIngredients(updateCommonIngredients);
     });
     return () => sessionIngredientsRef.off();
-  }, []);
+  }, [sessionMixologists]);
 
   return (
     <article>

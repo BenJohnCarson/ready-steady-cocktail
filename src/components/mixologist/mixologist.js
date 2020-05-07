@@ -9,30 +9,30 @@ import {
 } from "../../reducers/mixologistsReducer";
 import IngredientSearch from "../ingredientSearch/ingredientSearch";
 import Ingredient from "../ingredient/ingredient";
-import { db } from "../../services/firebase";
+import firebase from "../../services/firebase";
 
 const Mixologist = ({ id }) => {
   const [mixologist, setMixologist] = useState({});
   const { session } = useContext(ApplicationContext);
   // const dispatch = useMixologistsDispatch();
   const addIngredient = ingredient => {
-    db.ref(`/sessions/${session}/ingredients/${ingredient}`).update({
+    firebase.db.ref(`/sessions/${session}/ingredients/${ingredient}`).update({
       [`/mixologists/${id}`]: true,
     });
-    db.ref(`/mixologists/${id}`).update({
+    firebase.db.ref(`/mixologists/${id}`).update({
       [`/ingredients/${ingredient}`]: true,
     });
   };
   const removeIngredient = ingredient => {
-    db.ref(`/sessions/${session}/ingredients/${ingredient}`).update({
+    firebase.db.ref(`/sessions/${session}/ingredients/${ingredient}`).update({
       [`/mixologists/${id}`]: null,
     });
-    db.ref(`/mixologists/${id}`).update({
+    firebase.db.ref(`/mixologists/${id}`).update({
       [`/ingredients/${ingredient}`]: null,
     });
   };
   const setName = ({ target: { value: name } }) => {
-    return db.ref(`/mixologists/${id}`).update({
+    return firebase.db.ref(`/mixologists/${id}`).update({
       name,
     });
   };
@@ -71,10 +71,9 @@ const Mixologist = ({ id }) => {
   // );
 
   useEffect(() => {
-    const mixologistRef = db.ref(`/mixologists/${id}`);
+    const mixologistRef = firebase.db.ref(`/mixologists/${id}`);
 
     mixologistRef.on("value", mixologistSnap => {
-      console.log("new val ", mixologistSnap.val());
       setMixologist(mixologistSnap.val());
     });
     return () => mixologistRef.off();

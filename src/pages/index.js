@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { db } from "../services/firebase";
+import firebase from "../services/firebase";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import "./index.css";
@@ -40,7 +40,7 @@ const IndexPage = () => {
   useEffect(() => {
     const fetchMixologists = async () => {
       let dbMixologists = [];
-      const mixologistsSnap = await db
+      const mixologistsSnap = await firebase.db
         .ref(`/sessions/${session}/mixologists`)
         .once("value");
 
