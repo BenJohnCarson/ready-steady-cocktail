@@ -1,0 +1,36 @@
+{
+  "mixologists": {
+    "ben": {
+      "name": "Ben",
+      "ingredients": {
+        "Rum": true
+      }
+    },
+    "si": {
+      "name": "Si"
+    },
+    "andy": {
+      "name": "Andy"
+    },
+    "siCo": {
+      "name": "SiCo"
+    }
+  },
+  "sessions": {
+    "one": {
+      "mixologists": {
+        "ben": true,
+        "si": true,
+        "andy": true,
+        "siCo": true
+      },
+      "ingredients": {
+        "Rum": {
+          "mixologists": {
+            "ben": true
+          }
+        }
+      }
+    }
+  }
+}

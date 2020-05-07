@@ -31,9 +31,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <ul className="nav__list">
-        <li>
-          <SelectMixologists></SelectMixologists>
-        </li>
+        <li>{/* <SelectMixologists></SelectMixologists> */}</li>
       </ul>
     </nav>
   </header>

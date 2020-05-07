@@ -8,7 +8,7 @@ const IngredientSearch = ({ addIngredient, className }) => {
   const handleOnChange = useCallback(
     ingredient => {
       if (ingredient) {
-        addIngredient(ingredient);
+        addIngredient(ingredient.name);
       }
     },
     [addIngredient]

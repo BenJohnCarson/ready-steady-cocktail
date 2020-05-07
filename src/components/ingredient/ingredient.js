@@ -3,7 +3,7 @@ import "./ingredient.css";
 
 const Ingredient = ({ ingredient, children }) => (
   <li className="ingredient">
-    {ingredient.name}
+    {ingredient}
     {children}
   </li>
 );

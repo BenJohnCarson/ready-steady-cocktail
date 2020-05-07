@@ -1,23 +1,18 @@
-import React from "react";
-import * as firebase from "firebase/app";
-// import "firebase/database"
+import React, { useEffect, useState } from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import { db } from "../services/firebase";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import "./index.css";
-import { MixologistsProvider } from "../context/MixologistsContext";
+import { MixologistsContext } from "../context/MixologistsContext";
 import { ApplicationContext } from "../context/ApplicationContext";
 import MixologistList from "../components/mixologistList/mixologistList";
 import CommonIngredients from "../components/commonIngredients/commonIngredients";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBF48g22jZevys2ZV110JDjNGNPGpL75No",
-  authDomain: "ready-steady-cocktail.firebaseapp.com",
-  databaseURL: "https://ready-steady-cocktail.firebaseio.com",
-  storageBucket: "ready-steady-cocktail.appspot.com",
-};
+const session = "one";
 
 const IndexPage = () => {
+  const [mixologists, setMixologists] = useState([]);
   const data = useStaticQuery(graphql`
     query DataQuery {
       allConstantsJson {
@@ -42,22 +37,33 @@ const IndexPage = () => {
     allIngredientsJson: { nodes: ingredients },
   } = data;
 
-  if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-  }
+  useEffect(() => {
+    const fetchMixologists = async () => {
+      let dbMixologists = [];
+      const mixologistsSnap = await db
+        .ref(`/sessions/${session}/mixologists`)
+        .once("value");
+
+      mixologistsSnap.forEach(mixologistSnap => {
+        dbMixologists.push(mixologistSnap.key);
+      });
+      setMixologists(dbMixologists);
+    };
+
+    fetchMixologists();
+  }, []);
 
   return (
-    <ApplicationContext.Provider value={{ constants, ingredients }}>
-      <MixologistsProvider>
+    <ApplicationContext.Provider value={{ constants, ingredients, session }}>
+      <MixologistsContext.Provider value={mixologists}>
         <Layout>
           <SEO title="Home" />
           <section className="console">
             <CommonIngredients />
             <MixologistList />
           </section>
-          {/* <Link to="/page-2/">Go to page 2</Link> */}
         </Layout>
-      </MixologistsProvider>
+      </MixologistsContext.Provider>
     </ApplicationContext.Provider>
   );
 };
