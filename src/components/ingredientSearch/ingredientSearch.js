@@ -4,11 +4,11 @@ import { ApplicationContext } from "../../context/ApplicationContext";
 
 const IngredientSearch = ({ addIngredient, className }) => {
   const { ingredients } = useContext(ApplicationContext);
-  const getOptionValue = useCallback(option => option.name, []);
+  const getOptionValue = useCallback(option => option.id, []);
   const handleOnChange = useCallback(
     ingredient => {
       if (ingredient) {
-        addIngredient(ingredient.name);
+        addIngredient(ingredient.id);
       }
     },
     [addIngredient]

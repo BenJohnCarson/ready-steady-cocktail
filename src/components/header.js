@@ -2,7 +2,6 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import "./header.css";
-import SelectMixologists from "./selectMixologists/selectMixologists";
 
 const Header = ({ siteTitle }) => (
   <header
@@ -30,9 +29,6 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <ul className="nav__list">
-        <li>{/* <SelectMixologists></SelectMixologists> */}</li>
-      </ul>
     </nav>
   </header>
 );

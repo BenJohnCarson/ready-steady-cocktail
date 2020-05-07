@@ -1,12 +1,6 @@
-import React, { useCallback, useState, useEffect, useContext } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import "./mixologist.css";
-import { useMixologistsDispatch } from "../../context/MixologistsContext";
 import { ApplicationContext } from "../../context/ApplicationContext";
-import {
-  ADD_INGREDIENT,
-  REMOVE_INGREDIENT,
-  SET_NAME,
-} from "../../reducers/mixologistsReducer";
 import IngredientSearch from "../ingredientSearch/ingredientSearch";
 import Ingredient from "../ingredient/ingredient";
 import firebase from "../../services/firebase";
@@ -14,7 +8,7 @@ import firebase from "../../services/firebase";
 const Mixologist = ({ id }) => {
   const [mixologist, setMixologist] = useState({});
   const { session } = useContext(ApplicationContext);
-  // const dispatch = useMixologistsDispatch();
+
   const addIngredient = ingredient => {
     firebase.db.ref(`/sessions/${session}/ingredients/${ingredient}`).update({
       [`/mixologists/${id}`]: true,
@@ -36,39 +30,6 @@ const Mixologist = ({ id }) => {
       name,
     });
   };
-  // const addIngredient = useCallback(
-  //   ingredient => {
-  //     const { id } = mixologist;
-
-  //     dispatch({
-  //       type: ADD_INGREDIENT,
-  //       payload: { id, ingredient },
-  //     });
-  //   },
-  //   [mixologist, dispatch]
-  // );
-  // const removeIngredient = useCallback(
-  //   ingredient => {
-  //     const { id } = mixologist;
-
-  //     dispatch({
-  //       type: REMOVE_INGREDIENT,
-  //       payload: { id, ingredient },
-  //     });
-  //   },
-  //   [mixologist, dispatch]
-  // );
-  // const setName = useCallback(
-  //   ({ target: { value: name } }) => {
-  //     const { id } = mixologist;
-
-  //     dispatch({
-  //       type: SET_NAME,
-  //       payload: { id, name },
-  //     });
-  //   },
-  //   [mixologist, dispatch]
-  // );
 
   useEffect(() => {
     const mixologistRef = firebase.db.ref(`/mixologists/${id}`);
@@ -77,7 +38,7 @@ const Mixologist = ({ id }) => {
       setMixologist(mixologistSnap.val());
     });
     return () => mixologistRef.off();
-  }, []);
+  }, [id]);
 
   return (
     <article className="mixologist">
@@ -94,11 +55,7 @@ const Mixologist = ({ id }) => {
       <ul className="mixologist__ingredient-list">
         {mixologist.ingredients &&
           Object.keys(mixologist.ingredients).map((ingredient, index) => (
-            <Ingredient
-              key={index}
-              ingredient={ingredient}
-              removeIngredient={removeIngredient}
-            >
+            <Ingredient key={index} ingredient={ingredient}>
               <button onClick={() => removeIngredient(ingredient)}>X</button>
             </Ingredient>
           ))}
