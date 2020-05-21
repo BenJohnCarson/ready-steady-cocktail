@@ -26,6 +26,7 @@
   "devDependencies": {
     "eslint-config-react-app": "^5.2.1",
     "husky": "^4.2.5",
+    "lint-staged": "^10.2.4",
     "prettier": "2.0.5"
   },
   "eslintConfig": {
@@ -53,7 +54,10 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format && git add ."
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx,json,md}": "prettier --write"
   }
 }
