@@ -10,22 +10,22 @@ const CommonIngredients = () => {
   const sessionMixologists = useContext(MixologistsContext);
 
   useEffect(() => {
-    // const ingredientsRef = getIngredientsRef(session);
-    // ingredientsRef.on('value', sessionIngredientsSnap => {
-    //   let updateCommonIngredients = [];
-    //   sessionIngredientsSnap.forEach(ingredientSnap => {
-    //     const mixologists = ingredientSnap.child('mixologists').val();
-    //     if (
-    //       mixologists &&
-    //       Object.keys(mixologists).length === sessionMixologists.length
-    //     ) {
-    //       // Checking against length here needs to be changed to matching IDs
-    //       updateCommonIngredients.push(ingredientSnap.key);
-    //     }
-    //   });
-    //   setCommonIngredients(updateCommonIngredients);
-    // });
-    // return () => ingredientsRef.off();
+    const ingredientsRef = getIngredientsRef(session);
+    ingredientsRef.on('value', sessionIngredientsSnap => {
+      let updateCommonIngredients = [];
+      sessionIngredientsSnap.forEach(ingredientSnap => {
+        const mixologists = ingredientSnap.child('mixologists').val();
+        if (
+          mixologists &&
+          Object.keys(mixologists).length === sessionMixologists.length
+        ) {
+          // Checking against length here needs to be changed to matching IDs
+          updateCommonIngredients.push(ingredientSnap.key);
+        }
+      });
+      setCommonIngredients(updateCommonIngredients);
+    });
+    return () => ingredientsRef.off();
   }, [sessionMixologists, session]);
 
   return (

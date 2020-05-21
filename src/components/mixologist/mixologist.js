@@ -15,7 +15,7 @@ const Mixologist = ({ id }) => {
   const handleOnBlur = ({ target: { value: name } }) => {
     setName(name);
   };
-  console.log(mixologist);
+
   return (
     <article className="mixologist">
       <input

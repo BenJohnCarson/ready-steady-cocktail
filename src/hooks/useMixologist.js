@@ -1,34 +1,32 @@
-import { useReducer, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import {
-  mixologistReducer,
-  SET_MIXOLOGIST,
-  ADD_INGREDIENT,
-  REMOVE_INGREDIENT,
-  SET_NAME,
-} from '../reducers/mixologistReducer';
-import { getMixologistRef } from '../services/database';
+  getMixologistRef,
+  mixologistAddIngredient,
+  mixologistRemoveIngredient,
+  mixologistSetName,
+} from '../services/database';
 import { useSession } from './useSession';
 
 export const useMixologist = (id, defaultState = {}) => {
   const { session } = useSession();
-  const [mixologist, dispatch] = useReducer(mixologistReducer, defaultState);
+  const [mixologist, setMixologist] = useState(defaultState);
 
   const addIngredient = ingredient =>
-    dispatch({ type: ADD_INGREDIENT, ingredient, session });
+    mixologistAddIngredient({ ingredient, session, id });
   const removeIngredient = ingredient =>
-    dispatch({ type: REMOVE_INGREDIENT, ingredient, session });
-  const setName = name => dispatch({ type: SET_NAME, name });
+    mixologistRemoveIngredient({ ingredient, session, id });
+  const setName = name => mixologistSetName({ name, id });
 
   useEffect(() => {
     const mixologistRef = getMixologistRef(id);
 
-    mixologistRef.on('value', mixologistSnap => {
-      console.log('new val: ', mixologistSnap.val());
-      dispatch({ type: SET_MIXOLOGIST, mixologist: mixologistSnap.val(), id });
-    });
+    mixologistRef.on('value', mixologistSnap =>
+      setMixologist(mixologistSnap.val())
+    );
+
     return () => mixologistRef.off();
   }, [id]);
-  console.log(mixologist);
+
   return {
     mixologist,
     addIngredient,

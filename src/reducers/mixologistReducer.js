@@ -12,7 +12,6 @@ export const REMOVE_INGREDIENT = 'REMOVE_INGREDIENT';
 export const mixologistReducer = (mixologist, action) => {
   switch (action.type) {
     case SET_MIXOLOGIST: {
-      console.log(SET_MIXOLOGIST);
       return setMixologist(action);
     }
     case SET_NAME: {
@@ -22,7 +21,6 @@ export const mixologistReducer = (mixologist, action) => {
       return addIngredient(action, mixologist.id);
     }
     case REMOVE_INGREDIENT: {
-      console.log(REMOVE_INGREDIENT);
       return removeIngredient(action, mixologist.id);
     }
     default: {
