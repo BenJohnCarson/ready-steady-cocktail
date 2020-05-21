@@ -1,51 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './mixologist.css';
 import IngredientSearch from '../ingredientSearch/ingredientSearch';
 import Ingredient from '../ingredient/ingredient';
-import firebase from '../../services/firebase';
-import { useSession } from '../../hooks/useSession';
+import { useMixologist } from '../../hooks/useMixologist';
 
 const Mixologist = ({ id }) => {
-  const [mixologist, setMixologist] = useState({});
-  const { session } = useSession();
+  const {
+    mixologist,
+    addIngredient,
+    removeIngredient,
+    setName,
+  } = useMixologist(id);
 
-  const addIngredient = ingredient => {
-    firebase.db.ref(`/sessions/${session}/ingredients/${ingredient}`).update({
-      [`/mixologists/${id}`]: true,
-    });
-    firebase.db.ref(`/mixologists/${id}`).update({
-      [`/ingredients/${ingredient}`]: true,
-    });
+  const handleOnBlur = ({ target: { value: name } }) => {
+    setName(name);
   };
-  const removeIngredient = ingredient => {
-    firebase.db.ref(`/sessions/${session}/ingredients/${ingredient}`).update({
-      [`/mixologists/${id}`]: null,
-    });
-    firebase.db.ref(`/mixologists/${id}`).update({
-      [`/ingredients/${ingredient}`]: null,
-    });
-  };
-  const setName = ({ target: { value: name } }) => {
-    return firebase.db.ref(`/mixologists/${id}`).update({
-      name,
-    });
-  };
-
-  useEffect(() => {
-    const mixologistRef = firebase.db.ref(`/mixologists/${id}`);
-
-    mixologistRef.on('value', mixologistSnap => {
-      setMixologist(mixologistSnap.val());
-    });
-    return () => mixologistRef.off();
-  }, [id]);
-
+  console.log(mixologist);
   return (
     <article className="mixologist">
       <input
         className="mixologist__name"
         placeholder="Enter a name"
-        onBlur={setName}
+        onBlur={handleOnBlur}
         defaultValue={mixologist.name}
       ></input>
       <IngredientSearch

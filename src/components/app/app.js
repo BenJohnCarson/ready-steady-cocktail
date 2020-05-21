@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import firebase from '../../services/firebase';
 import Layout from '../layout/layout';
 import SEO from '../seo/seo';
 import './app.css';
+import { getMixologists } from '../../services/database';
 import { MixologistsContext } from '../../context/MixologistsContext';
 import { ApplicationContext } from '../../context/ApplicationContext';
 import MixologistList from '../mixologistList/mixologistList';
@@ -41,16 +41,7 @@ const App = () => {
   useEffect(() => {
     const fetchMixologists = async () => {
       if (session) {
-        let dbMixologists = [];
-        const mixologistsSnap = await firebase.db
-          .ref(`/sessions/${session}/mixologists`)
-          .once('value');
-
-        mixologistsSnap.forEach(mixologistSnap => {
-          dbMixologists.push(mixologistSnap.key);
-        });
-
-        setMixologists(dbMixologists);
+        setMixologists(await getMixologists(session));
       }
     };
 

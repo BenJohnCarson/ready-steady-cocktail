@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import firebase from '../../services/firebase';
+import { getIngredientsRef } from '../../services/database';
 import { useSession } from '../../hooks/useSession';
 import { MixologistsContext } from '../../context/MixologistsContext';
 import Ingredient from '../ingredient/ingredient';
@@ -10,27 +10,22 @@ const CommonIngredients = () => {
   const sessionMixologists = useContext(MixologistsContext);
 
   useEffect(() => {
-    const sessionIngredientsRef = firebase.db.ref(
-      `/sessions/${session}/ingredients`
-    );
-
-    sessionIngredientsRef.on('value', sessionIngredientsSnap => {
-      let updateCommonIngredients = [];
-
-      sessionIngredientsSnap.forEach(ingredientSnap => {
-        const mixologists = ingredientSnap.child('mixologists').val();
-
-        if (
-          mixologists &&
-          Object.keys(mixologists).length === sessionMixologists.length
-        ) {
-          // Checking against length here needs to be changed to matching IDs
-          updateCommonIngredients.push(ingredientSnap.key);
-        }
-      });
-      setCommonIngredients(updateCommonIngredients);
-    });
-    return () => sessionIngredientsRef.off();
+    // const ingredientsRef = getIngredientsRef(session);
+    // ingredientsRef.on('value', sessionIngredientsSnap => {
+    //   let updateCommonIngredients = [];
+    //   sessionIngredientsSnap.forEach(ingredientSnap => {
+    //     const mixologists = ingredientSnap.child('mixologists').val();
+    //     if (
+    //       mixologists &&
+    //       Object.keys(mixologists).length === sessionMixologists.length
+    //     ) {
+    //       // Checking against length here needs to be changed to matching IDs
+    //       updateCommonIngredients.push(ingredientSnap.key);
+    //     }
+    //   });
+    //   setCommonIngredients(updateCommonIngredients);
+    // });
+    // return () => ingredientsRef.off();
   }, [sessionMixologists, session]);
 
   return (

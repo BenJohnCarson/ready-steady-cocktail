@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext, createContext } from 'react';
 import { useLocation, navigate } from '@reach/router';
 import queryString from 'query-string';
-import firebase from '../services/firebase';
+import { postSession } from '../services/database';
 
 const sessionContext = createContext();
 
@@ -24,16 +24,8 @@ function useProvideSession() {
   const { search } = useLocation();
 
   const newSession = mixologistsCount => {
-    const newSessionKey = firebase.db.ref('/sessions').push().key;
-    const sessionData = {};
+    const newSessionKey = postSession(mixologistsCount);
 
-    for (let i = 0; i < mixologistsCount; i++) {
-      const newMixologistKey = firebase.db.ref('/mixologists').push().key;
-
-      firebase.db.ref(`/mixologists/${newMixologistKey}`).set({ name: '' });
-      sessionData[`/mixologists/${newMixologistKey}`] = true;
-    }
-    firebase.db.ref(`/sessions/${newSessionKey}`).update(sessionData);
     navigate(`?${queryString.stringify({ session: newSessionKey })}`);
   };
 
