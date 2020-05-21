@@ -1,13 +1,13 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import "./mixologist.css";
-import { ApplicationContext } from "../../context/ApplicationContext";
 import IngredientSearch from "../ingredientSearch/ingredientSearch";
 import Ingredient from "../ingredient/ingredient";
 import firebase from "../../services/firebase";
+import { useSession } from "../../hooks/useSession";
 
 const Mixologist = ({ id }) => {
   const [mixologist, setMixologist] = useState({});
-  const { session } = useContext(ApplicationContext);
+  const { session } = useSession();
 
   const addIngredient = ingredient => {
     firebase.db.ref(`/sessions/${session}/ingredients/${ingredient}`).update({

@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useContext } from "react";
-import { MixologistsContext } from "../../context/MixologistsContext";
-import { ApplicationContext } from "../../context/ApplicationContext";
-import Ingredient from "../ingredient/ingredient";
 import firebase from "../../services/firebase";
+import { useSession } from "../../hooks/useSession";
+import { MixologistsContext } from "../../context/MixologistsContext";
+import Ingredient from "../ingredient/ingredient";
 
 const CommonIngredients = () => {
   const [commonIngredients, setCommonIngredients] = useState([]);
-  const { session } = useContext(ApplicationContext);
+  const { session } = useSession();
   const sessionMixologists = useContext(MixologistsContext);
 
   useEffect(() => {
