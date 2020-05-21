@@ -1,7 +1,7 @@
-import React, { useContext, useMemo, useCallback } from "react";
-import Select from "react-select";
-import { ApplicationContext } from "../../context/ApplicationContext";
-import { useSession } from "../../hooks/useSession";
+import React, { useContext, useMemo, useCallback } from 'react';
+import Select from 'react-select';
+import { ApplicationContext } from '../../context/ApplicationContext';
+import { useSession } from '../../hooks/useSession';
 
 const SelectMixologists = () => {
   const { newSession } = useSession();

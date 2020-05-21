@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useContext } from "react";
-import firebase from "../../services/firebase";
-import { useSession } from "../../hooks/useSession";
-import { MixologistsContext } from "../../context/MixologistsContext";
-import Ingredient from "../ingredient/ingredient";
+import React, { useState, useEffect, useContext } from 'react';
+import firebase from '../../services/firebase';
+import { useSession } from '../../hooks/useSession';
+import { MixologistsContext } from '../../context/MixologistsContext';
+import Ingredient from '../ingredient/ingredient';
 
 const CommonIngredients = () => {
   const [commonIngredients, setCommonIngredients] = useState([]);
@@ -14,11 +14,11 @@ const CommonIngredients = () => {
       `/sessions/${session}/ingredients`
     );
 
-    sessionIngredientsRef.on("value", sessionIngredientsSnap => {
+    sessionIngredientsRef.on('value', sessionIngredientsSnap => {
       let updateCommonIngredients = [];
 
       sessionIngredientsSnap.forEach(ingredientSnap => {
-        const mixologists = ingredientSnap.child("mixologists").val();
+        const mixologists = ingredientSnap.child('mixologists').val();
 
         if (
           mixologists &&

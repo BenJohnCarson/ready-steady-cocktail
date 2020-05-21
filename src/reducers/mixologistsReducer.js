@@ -1,7 +1,7 @@
-export const SET_MIXOLOGISTS = "SET_MIXOLOGISTS";
-export const SET_NAME = "SET_NAME";
-export const ADD_INGREDIENT = "ADD_INGREDIENT";
-export const REMOVE_INGREDIENT = "REMOVE_INGREDIENT";
+export const SET_MIXOLOGISTS = 'SET_MIXOLOGISTS';
+export const SET_NAME = 'SET_NAME';
+export const ADD_INGREDIENT = 'ADD_INGREDIENT';
+export const REMOVE_INGREDIENT = 'REMOVE_INGREDIENT';
 
 export const mixologistsReducer = (mixologists, action) => {
   switch (action.type) {
@@ -29,7 +29,7 @@ function setMixologists(count) {
   for (let i = 0; i < count; i++) {
     mixologists.push({
       id: i,
-      name: "",
+      name: '',
       ingredients: [],
     });
   }

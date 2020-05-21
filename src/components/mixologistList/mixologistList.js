@@ -1,7 +1,7 @@
-import React, { useContext } from "react";
-import "./mixologistList.css";
-import Mixologist from "../mixologist/mixologist";
-import { MixologistsContext } from "../../context/MixologistsContext";
+import React, { useContext } from 'react';
+import './mixologistList.css';
+import Mixologist from '../mixologist/mixologist';
+import { MixologistsContext } from '../../context/MixologistsContext';
 
 const MixologistList = () => {
   const mixologists = useContext(MixologistsContext);

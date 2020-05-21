@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import "./mixologist.css";
-import IngredientSearch from "../ingredientSearch/ingredientSearch";
-import Ingredient from "../ingredient/ingredient";
-import firebase from "../../services/firebase";
-import { useSession } from "../../hooks/useSession";
+import React, { useState, useEffect } from 'react';
+import './mixologist.css';
+import IngredientSearch from '../ingredientSearch/ingredientSearch';
+import Ingredient from '../ingredient/ingredient';
+import firebase from '../../services/firebase';
+import { useSession } from '../../hooks/useSession';
 
 const Mixologist = ({ id }) => {
   const [mixologist, setMixologist] = useState({});
@@ -34,7 +34,7 @@ const Mixologist = ({ id }) => {
   useEffect(() => {
     const mixologistRef = firebase.db.ref(`/mixologists/${id}`);
 
-    mixologistRef.on("value", mixologistSnap => {
+    mixologistRef.on('value', mixologistSnap => {
       setMixologist(mixologistSnap.val());
     });
     return () => mixologistRef.off();

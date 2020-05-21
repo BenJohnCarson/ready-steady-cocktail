@@ -1,6 +1,6 @@
-import React, { useContext, useCallback } from "react";
-import Select from "react-select";
-import { ApplicationContext } from "../../context/ApplicationContext";
+import React, { useContext, useCallback } from 'react';
+import Select from 'react-select';
+import { ApplicationContext } from '../../context/ApplicationContext';
 
 const IngredientSearch = ({ addIngredient, className }) => {
   const { ingredients } = useContext(ApplicationContext);

@@ -1,5 +1,5 @@
-import React from "react";
-import "./ingredient.css";
+import React from 'react';
+import './ingredient.css';
 
 const Ingredient = ({ ingredient, children }) => (
   <li className="ingredient">
