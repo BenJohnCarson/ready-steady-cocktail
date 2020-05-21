@@ -1,11 +1,689 @@
 [
   {
-    "name": "Rum"
+    "id": "Absinthe"
   },
   {
-    "name": "Vodka"
+    "id": "Agave (Mezcal)"
   },
   {
-    "name": "Gin"
+    "id": "Agave (Tequila Anejo)"
+  },
+  {
+    "id": "Agave (Tequila Blanco)"
+  },
+  {
+    "id": "Agave (Tequila Reposado)"
+  },
+  {
+    "id": "Amaro (Aperitivo)"
+  },
+  {
+    "id": "Amaro (Cynar)"
+  },
+  {
+    "id": "Amaro (Fernet)"
+  },
+  {
+    "id": "Amaro (Medium)"
+  },
+  {
+    "id": "Amaro (Mild)"
+  },
+  {
+    "id": "Apéritif (Aperol)"
+  },
+  {
+    "id": "Aperitif (Cocchi Americano)"
+  },
+  {
+    "id": "Aperitif (Gentiane-quina)"
+  },
+  {
+    "id": "Aperitif (Raspberry)"
+  },
+  {
+    "id": "Aperitif (Salers Gentian)"
+  },
+  {
+    "id": "Apperitif (Lillet Blanc)"
+  },
+  {
+    "id": "Apperitif (Lillet Rosé)"
+  },
+  {
+    "id": "Apperitif (Lillet Rouge)"
+  },
+  {
+    "id": "Apperitif (Bitter Bianco)"
+  },
+  {
+    "id": "Au Choix"
+  },
+  {
+    "id": "Batavia Arrack"
+  },
+  {
+    "id": "Beer (Double/imperial Ipa)"
+  },
+  {
+    "id": "Beer (Schwarzbier/dunkel)"
+  },
+  {
+    "id": "Beer (Sweet/milk Stout)"
+  },
+  {
+    "id": "Beer (Vienna Lager)"
+  },
+  {
+    "id": "Beer (Witbier)"
+  },
+  {
+    "id": "Bitters (Allspice)"
+  },
+  {
+    "id": "Bitters (Apple)"
+  },
+  {
+    "id": "Bitters (Aromatic)"
+  },
+  {
+    "id": "Bitters (Becherovka)"
+  },
+  {
+    "id": "Bitters (Celery)"
+  },
+  {
+    "id": "Bitters (Cherry Bark And Vanilla)"
+  },
+  {
+    "id": "Bitters (Chocolate)"
+  },
+  {
+    "id": "Bitters (Creole)"
+  },
+  {
+    "id": "Bitters (Grapefruit)"
+  },
+  {
+    "id": "Bitters (Lavender)"
+  },
+  {
+    "id": "Bitters (Orange)"
+  },
+  {
+    "id": "Bitters (Tiki)"
+  },
+  {
+    "id": "Brandy (Apple)"
+  },
+  {
+    "id": "Brandy (Cherry)"
+  },
+  {
+    "id": "Brandy (Grape)"
+  },
+  {
+    "id": "Brandy (Pear)"
+  },
+  {
+    "id": "Brandy (Pisco)"
+  },
+  {
+    "id": "Butter (Apple)"
+  },
+  {
+    "id": "Butter (Pumpkin)"
+  },
+  {
+    "id": "Cachaça"
+  },
+  {
+    "id": "Campari (Milano)"
+  },
+  {
+    "id": "Chartreuse (Green)"
+  },
+  {
+    "id": "Chartreuse (Yellow)"
+  },
+  {
+    "id": "Cherry Heering"
+  },
+  {
+    "id": "Cider (Apple)"
+  },
+  {
+    "id": "Cider (Pear)"
+  },
+  {
+    "id": "Cordial (Black Currant)"
+  },
+  {
+    "id": "Cordial (Kumquat)"
+  },
+  {
+    "id": "Cordial (Lime)"
+  },
+  {
+    "id": "Cream (Coconut)"
+  },
+  {
+    "id": "Cream (Heavy)"
+  },
+  {
+    "id": "Egg"
+  },
+  {
+    "id": "Egg (White)"
+  },
+  {
+    "id": "Egg (Whole)"
+  },
+  {
+    "id": "Egg (Yolk)"
+  },
+  {
+    "id": "Fruit (Apple)"
+  },
+  {
+    "id": "Fruit (Blackberry)"
+  },
+  {
+    "id": "Fruit (Cherry)"
+  },
+  {
+    "id": "Fruit (Grape)"
+  },
+  {
+    "id": "Fruit (Lime)"
+  },
+  {
+    "id": "Fruit (Nectarine)"
+  },
+  {
+    "id": "Fruit (Orange)"
+  },
+  {
+    "id": "Fruit (Peach)"
+  },
+  {
+    "id": "Fruit (Pear)"
+  },
+  {
+    "id": "Fruit (Raspberry)"
+  },
+  {
+    "id": "Fruit (Strawberry)"
+  },
+  {
+    "id": "Fruit (Tangerine)"
+  },
+  {
+    "id": "Fruit (Tomato)"
+  },
+  {
+    "id": "Gin"
+  },
+  {
+    "id": "Gin (American)"
+  },
+  {
+    "id": "Gin (Genever)"
+  },
+  {
+    "id": "Gin (London Dry)"
+  },
+  {
+    "id": "Gin (Old Tom)"
+  },
+  {
+    "id": "Gin (Plymouth)"
+  },
+  {
+    "id": "Gin (Sloe)"
+  },
+  {
+    "id": "Juice (Apple)"
+  },
+  {
+    "id": "Juice (Blood Orange)"
+  },
+  {
+    "id": "Juice (Cantaloupe)"
+  },
+  {
+    "id": "Juice (Celery)"
+  },
+  {
+    "id": "Juice (Grapefruit)"
+  },
+  {
+    "id": "Juice (Lemon)"
+  },
+  {
+    "id": "Juice (Lime)"
+  },
+  {
+    "id": "Juice (Orange)"
+  },
+  {
+    "id": "Juice (Pineapple)"
+  },
+  {
+    "id": "Juice (Watermelon)"
+  },
+  {
+    "id": "Leaf (Basil)"
+  },
+  {
+    "id": "Leaf (Curry)"
+  },
+  {
+    "id": "Leaf (Kaffir Lime)"
+  },
+  {
+    "id": "Leaf (Sage)"
+  },
+  {
+    "id": "Liqueur"
+  },
+  {
+    "id": "Liqueur (Allspice Dram)"
+  },
+  {
+    "id": "Liqueur (Almond)"
+  },
+  {
+    "id": "Liqueur (Apricot)"
+  },
+  {
+    "id": "Liqueur (Bénédictine)"
+  },
+  {
+    "id": "Liqueur (Blackberry)"
+  },
+  {
+    "id": "Liqueur (Blood Orange)"
+  },
+  {
+    "id": "Liqueur (Caraway)"
+  },
+  {
+    "id": "Liqueur (Caraway) (Aquavit)"
+  },
+  {
+    "id": "Liqueur (Cherry)"
+  },
+  {
+    "id": "Liqueur (Coconut)"
+  },
+  {
+    "id": "Liqueur (Crème De Cacao)"
+  },
+  {
+    "id": "Liqueur (Crème De Cassis)"
+  },
+  {
+    "id": "Liqueur (Crème De Menthe)"
+  },
+  {
+    "id": "Liqueur (Crème De Violette)"
+  },
+  {
+    "id": "Liqueur (Crème Yvette)"
+  },
+  {
+    "id": "Liqueur (Drambuie)"
+  },
+  {
+    "id": "Liqueur (Elderflower)"
+  },
+  {
+    "id": "Liqueur (Falernum)"
+  },
+  {
+    "id": "Liqueur (Galliano)"
+  },
+  {
+    "id": "Liqueur (Grapefruit)"
+  },
+  {
+    "id": "Liqueur (Orange)"
+  },
+  {
+    "id": "Liqueur (Peach)"
+  },
+  {
+    "id": "Liqueur (Pear)"
+  },
+  {
+    "id": "Liqueur (Pine)"
+  },
+  {
+    "id": "Liqueur (Rose)"
+  },
+  {
+    "id": "Liqueur (Strawberry)"
+  },
+  {
+    "id": "Liqueur (Strega)"
+  },
+  {
+    "id": "Liqueur (Suze)"
+  },
+  {
+    "id": "Liqueur (Swedish Punsch)"
+  },
+  {
+    "id": "Madeira"
+  },
+  {
+    "id": "Mint"
+  },
+  {
+    "id": "Mix (Bergerac Mix)"
+  },
+  {
+    "id": "Mix (Donn’s Mix #1)"
+  },
+  {
+    "id": "Mix (Donn’s Spices #2)"
+  },
+  {
+    "id": "Mix (Pendennis Mix)"
+  },
+  {
+    "id": "Mix (Zombie Mix)"
+  },
+  {
+    "id": "Other (Acid Phosphate)"
+  },
+  {
+    "id": "Other (Becherovka)"
+  },
+  {
+    "id": "Other (Cilantro)"
+  },
+  {
+    "id": "Other (Horchata)"
+  },
+  {
+    "id": "Other (Hot Sauce)"
+  },
+  {
+    "id": "Other (Kirsch)"
+  },
+  {
+    "id": "Other (Lemon Curd)"
+  },
+  {
+    "id": "Other (Marmalade (Orange))"
+  },
+  {
+    "id": "Other (Orange Flower Water)"
+  },
+  {
+    "id": "Other (Pomegranate Molasses)"
+  },
+  {
+    "id": "Other (Rose Water)"
+  },
+  {
+    "id": "Other (Verjus)"
+  },
+  {
+    "id": "Other (Vinegar)"
+  },
+  {
+    "id": "Other (Yogurt)"
+  },
+  {
+    "id": "Puree (Kalamansi)"
+  },
+  {
+    "id": "Preserve (Raspberry)"
+  },
+  {
+    "id": "Preserve (Apricot)"
+  },
+  {
+    "id": "Puree (Pumpkin)"
+  },
+  {
+    "id": "Rim (Cinnamon Sugar)"
+  },
+  {
+    "id": "Rim (Spicy Sugar And Salt)"
+  },
+  {
+    "id": "Rim (Toasted Fennel Salt)"
+  },
+  {
+    "id": "Rum (Agricole Ambre)"
+  },
+  {
+    "id": "Rum (Agricole Blanc)"
+  },
+  {
+    "id": "Rum (Demerara Overproof)"
+  },
+  {
+    "id": "Rum (Demerara White)"
+  },
+  {
+    "id": "Rum (Demerara)"
+  },
+  {
+    "id": "Rum (English White)"
+  },
+  {
+    "id": "Rum (English)"
+  },
+  {
+    "id": "Rum (Jamaican White)"
+  },
+  {
+    "id": "Rum (Jamaican)"
+  },
+  {
+    "id": "Rum (Spanish White)"
+  },
+  {
+    "id": "Rum (Spanish)"
+  },
+  {
+    "id": "Salt"
+  },
+  {
+    "id": "Sherry"
+  },
+  {
+    "id": "Sherry (Amontillado)"
+  },
+  {
+    "id": "Sherry (Cream)"
+  },
+  {
+    "id": "Sherry (Manzanilla)"
+  },
+  {
+    "id": "Sherry (Oloroso)"
+  },
+  {
+    "id": "Sherry (Pale Cream)"
+  },
+  {
+    "id": "Shrub (Habanero)"
+  },
+  {
+    "id": "Shrub (Sour Cherry)"
+  },
+  {
+    "id": "Soda"
+  },
+  {
+    "id": "Soda (Grapefruit)"
+  },
+  {
+    "id": "Spice (Cardamom Pods)"
+  },
+  {
+    "id": "Spice (Cinnamon)"
+  },
+  {
+    "id": "Spice (Nutmeg)"
+  },
+  {
+    "id": "Sugar"
+  },
+  {
+    "id": "Sugar Cube"
+  },
+  {
+    "id": "Syrup (Agave Nectar)"
+  },
+  {
+    "id": "Syrup (Agave)"
+  },
+  {
+    "id": "Syrup (Apple)"
+  },
+  {
+    "id": "Syrup (Banana)"
+  },
+  {
+    "id": "Syrup (Blueberry)"
+  },
+  {
+    "id": "Syrup (Cane Sugar)"
+  },
+  {
+    "id": "Syrup (Cinnamon)"
+  },
+  {
+    "id": "Syrup (Cumin)"
+  },
+  {
+    "id": "Syrup (Demerara)"
+  },
+  {
+    "id": "Syrup (Gastrique)"
+  },
+  {
+    "id": "Syrup (Ginger)"
+  },
+  {
+    "id": "Syrup (Grenadine)"
+  },
+  {
+    "id": "Syrup (Hibiscus)"
+  },
+  {
+    "id": "Syrup (Honey)"
+  },
+  {
+    "id": "Syrup (Maple)"
+  },
+  {
+    "id": "Syrup (Orgeat)"
+  },
+  {
+    "id": "Syrup (Passion Fruit)"
+  },
+  {
+    "id": "Syrup (Rich)"
+  },
+  {
+    "id": "Syrup (Scarlet Glow Tea)"
+  },
+  {
+    "id": "Syrup (Simple)"
+  },
+  {
+    "id": "Syrup (Vanilla)"
+  },
+  {
+    "id": "Tonic"
+  },
+  {
+    "id": "Triple Sec"
+  },
+  {
+    "id": "Twist (Grapefruit)"
+  },
+  {
+    "id": "Twist (Lemon)"
+  },
+  {
+    "id": "Twist (Orange)"
+  },
+  {
+    "id": "Vegetable (Cucumber)"
+  },
+  {
+    "id": "Vermouth (Blanc)"
+  },
+  {
+    "id": "Vermouth (Dry)"
+  },
+  {
+    "id": "Vermouth (Sweet)"
+  },
+  {
+    "id": "Vodka"
+  },
+  {
+    "id": "Vodka (Chocolate)"
+  },
+  {
+    "id": "Water (Coconut)"
+  },
+  {
+    "id": "Whiskey (Bourbon)"
+  },
+  {
+    "id": "Whiskey (Irish)"
+  },
+  {
+    "id": "Whiskey (Japanese)"
+  },
+  {
+    "id": "Whiskey (Oat)"
+  },
+  {
+    "id": "Whiskey (Rye)"
+  },
+  {
+    "id": "Whiskey (Scotch Blended)"
+  },
+  {
+    "id": "Whiskey (Scotch Campbeltown)"
+  },
+  {
+    "id": "Whiskey (Scotch Highlands)"
+  },
+  {
+    "id": "Whiskey (Scotch Islay)"
+  },
+  {
+    "id": "Whiskey (Scotch Speyside)"
+  },
+  {
+    "id": "Whiskey (Wheat)"
+  },
+  {
+    "id": "Wine (Port)"
+  },
+  {
+    "id": "Wine (Red)"
+  },
+  {
+    "id": "Wine (Sparkling Rosé)"
+  },
+  {
+    "id": "Wine (Sparkling)"
+  },
+  {
+    "id": "Wine (White)"
   }
 ]

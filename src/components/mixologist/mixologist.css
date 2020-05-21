@@ -9,25 +9,24 @@
     ". . ."
     ". ingredients. ";
   grid-auto-rows: minmax(40px, auto);
-  border: 2px solid grey;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  border: 2px solid #18181E;
 }
 
-.name {
+.mixologist__name {
   grid-area: name;
   text-align: center;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #18181E;
 }
 
-.ingredient-search {
+.mixologist__ingredient-search {
   grid-area: search;
 }
 
-.ingredient-list {
+.mixologist__ingredient-list {
   grid-area: ingredients;
   overflow: scroll;
+  margin-left: 0;
 }

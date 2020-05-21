@@ -1,13 +1,12 @@
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
-import React from "react";
-import "./header.css";
-import SelectMixologists from "./selectMixologists/selectMixologists";
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
+import './header.css';
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#18181E`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -23,18 +22,13 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#DEC79B`,
             textDecoration: `none`,
           }}
         >
           {siteTitle}
         </Link>
       </h1>
-      <ul className="nav__list">
-        <li>
-          <SelectMixologists></SelectMixologists>
-        </li>
-      </ul>
     </nav>
   </header>
 );
