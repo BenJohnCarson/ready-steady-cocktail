@@ -22,7 +22,7 @@ const App = () => {
           MIN_MIXOLOGISTS
         }
       }
-      allIngredientsJson {
+      allIngredientsJson(sort: { fields: id, order: ASC }) {
         nodes {
           id
         }
