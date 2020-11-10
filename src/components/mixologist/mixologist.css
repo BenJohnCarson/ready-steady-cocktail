@@ -27,6 +27,7 @@
 
 .mixologist__ingredient-list {
   grid-area: ingredients;
-  overflow: scroll;
+  overflow: auto;
   margin-left: 0;
+  max-height: 600px;
 }

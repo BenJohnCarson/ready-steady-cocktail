@@ -1,11 +1,10 @@
 .mixologist-list {
   display: grid;
   grid-template-columns: auto;
-  grid-auto-rows: 300px;
   gap: 10px 10px;
 }
 @media only screen and (min-width: 768px) {
   .mixologist-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
