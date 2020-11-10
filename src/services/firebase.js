@@ -16,7 +16,7 @@ export default new Proxy(
   },
   {
     get: function (target, name) {
-      if (!firebase.apps.length) {
+      if (firebase.apps && !firebase.apps.length) {
         firebase.initializeApp(firebaseConfig);
       }
 
