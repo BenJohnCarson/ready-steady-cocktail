@@ -16,6 +16,7 @@ const Mixologist = ({ id }) => {
     setName(name);
   };
 
+  console.log(mixologist.ingredients);
   return (
     <article className="mixologist">
       <input

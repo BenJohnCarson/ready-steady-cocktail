@@ -11,13 +11,17 @@ const CommonIngredients = () => {
 
   useEffect(() => {
     const ingredientsRef = getIngredientsRef(session);
+    const threshold = 1;
+
     ingredientsRef.on('value', sessionIngredientsSnap => {
       let updateCommonIngredients = [];
+
       sessionIngredientsSnap.forEach(ingredientSnap => {
         const mixologists = ingredientSnap.child('mixologists').val();
         if (
           mixologists &&
-          Object.keys(mixologists).length === sessionMixologists.length
+          Object.keys(mixologists).length ===
+            sessionMixologists.length - threshold
         ) {
           // Checking against length here needs to be changed to matching IDs
           updateCommonIngredients.push(ingredientSnap.key);
