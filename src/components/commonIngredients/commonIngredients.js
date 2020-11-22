@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
+import { COMMON_INGREDIENTS_THRESHOLD } from '../../constants';
 import { getIngredientsRef } from '../../services/database';
 import { useSession } from '../../hooks/useSession';
 import { MixologistsContext } from '../../context/MixologistsContext';
@@ -11,7 +12,6 @@ const CommonIngredients = () => {
 
   useEffect(() => {
     const ingredientsRef = getIngredientsRef(session);
-    const threshold = 1;
 
     ingredientsRef.on('value', sessionIngredientsSnap => {
       let updateCommonIngredients = [];
@@ -21,7 +21,7 @@ const CommonIngredients = () => {
         if (
           mixologists &&
           Object.keys(mixologists).length ===
-            sessionMixologists.length - threshold
+            sessionMixologists.length - COMMON_INGREDIENTS_THRESHOLD
         ) {
           // Checking against length here needs to be changed to matching IDs
           updateCommonIngredients.push(ingredientSnap.key);
