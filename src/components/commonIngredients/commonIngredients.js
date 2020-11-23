@@ -67,6 +67,8 @@ const CommonIngredients = () => {
       ).then(data => {
         setCommonIngredients(data.map(ingredient => ingredient.val()));
       });
+    } else {
+      setCommonIngredients([]);
     }
   }, [commonIngredientKeys]);
 
