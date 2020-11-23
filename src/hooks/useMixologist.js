@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import {
+  getIngredient,
   getMixologistRef,
   mixologistAddIngredient,
   mixologistRemoveIngredient,
@@ -10,6 +11,7 @@ import { useSession } from './useSession';
 export const useMixologist = (id, defaultState = {}) => {
   const { session } = useSession();
   const [mixologist, setMixologist] = useState(defaultState);
+  const [ingredients, setIngredients] = useState([]);
 
   const addIngredient = ingredient =>
     mixologistAddIngredient({ ingredient, session, id });
@@ -27,10 +29,32 @@ export const useMixologist = (id, defaultState = {}) => {
     return () => mixologistRef.off();
   }, [id]);
 
+  // TODO: Can this be extracted out to a useIngredients hook? Duplicate functionality in commonIngredients
+  useEffect(() => {
+    const getIngredients = async () => {
+      const ingredientKeys =
+        mixologist.ingredients && Object.keys(mixologist.ingredients);
+
+      if (ingredientKeys && ingredientKeys.length) {
+        const ingredientSnaps = await Promise.all(
+          ingredientKeys.map(ingredientKey => getIngredient(ingredientKey))
+        );
+
+        return ingredientSnaps.map(ingredient => ingredient.val());
+      }
+      return [];
+    };
+
+    getIngredients().then(ingredientsResponse =>
+      setIngredients(ingredientsResponse)
+    );
+  }, [mixologist.ingredients]);
+
   return {
     mixologist,
     addIngredient,
     removeIngredient,
     setName,
+    ingredients,
   };
 };

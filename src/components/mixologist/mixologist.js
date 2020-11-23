@@ -10,8 +10,8 @@ const Mixologist = ({ id }) => {
     addIngredient,
     removeIngredient,
     setName,
+    ingredients,
   } = useMixologist(id);
-
   const handleOnBlur = ({ target: { value: name } }) => {
     setName(name);
   };
@@ -29,12 +29,16 @@ const Mixologist = ({ id }) => {
         addIngredient={addIngredient}
       ></IngredientSearch>
       <ul className="mixologist__ingredient-list">
-        {mixologist.ingredients &&
-          Object.keys(mixologist.ingredients).map((ingredient, index) => (
-            <Ingredient key={index} ingredient={ingredient}>
-              <button onClick={() => removeIngredient(ingredient)}>X</button>
-            </Ingredient>
-          ))}
+        {!!ingredients.length &&
+          ingredients
+            .sort((a, b) => a.title.localeCompare(b.title))
+            .map((ingredient, index) => (
+              <Ingredient key={index} ingredient={ingredient}>
+                <button onClick={() => removeIngredient(ingredient.id)}>
+                  X
+                </button>
+              </Ingredient>
+            ))}
       </ul>
     </article>
   );

@@ -3,12 +3,13 @@ import Select from 'react-select';
 import { ApplicationContext } from '../../context/ApplicationContext';
 
 const IngredientSearch = ({ addIngredient, className }) => {
+  // TODO: Should switch to using ingredients from firebase instead
   const { ingredients } = useContext(ApplicationContext);
-  const getOptionValue = useCallback(option => option.id, []);
+  const getOptionValue = useCallback(option => option.title, []);
   const handleOnChange = useCallback(
     ingredient => {
       if (ingredient) {
-        addIngredient(ingredient.id);
+        addIngredient(ingredient);
       }
     },
     [addIngredient]

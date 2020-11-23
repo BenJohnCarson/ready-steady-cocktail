@@ -17,6 +17,9 @@ export const postSession = mixologistsCount => {
   return newSessionKey;
 };
 
+export const getIngredient = async id =>
+  await db.ref(`/ingredients/${id}`).once('value');
+
 export const getIngredientsRef = session =>
   db.ref(`/sessions/${session}/ingredients`);
 
@@ -42,11 +45,11 @@ export const mixologistSetName = ({ name, id }) => {
 };
 
 export const mixologistAddIngredient = ({ ingredient, session, id }) => {
-  db.ref(`/sessions/${session}/ingredients/${ingredient}`).update({
+  db.ref(`/sessions/${session}/ingredients/${ingredient.id}`).update({
     [`/mixologists/${id}`]: true,
   });
   db.ref(`/mixologists/${id}`).update({
-    [`/ingredients/${ingredient}`]: true,
+    [`/ingredients/${ingredient.id}`]: true,
   });
 };
 
@@ -58,3 +61,10 @@ export const mixologistRemoveIngredient = ({ ingredient, session, id }) => {
     [`/ingredients/${ingredient}`]: null,
   });
 };
+
+// Leaving this here for now incase I accidentally empty the DB
+// export const addIngredientsList = ({ingredients}) => {
+//   ingredients.forEach(ingredient => {
+//     db.ref(`/ingredients/${ingredient.id}`).update(ingredient)
+//   })
+// }

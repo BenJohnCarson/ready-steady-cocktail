@@ -14,17 +14,35 @@ import { useSession } from '../../hooks/useSession';
 const App = () => {
   const { session } = useSession();
   const [mixologists, setMixologists] = useState([]);
+  // TODO: Start storing these queries elsewhere
   const data = useStaticQuery(graphql`
     query DataQuery {
       allConstantsJson {
         nodes {
           MAX_MIXOLOGISTS
           MIN_MIXOLOGISTS
+          COMMON_INGREDIENTS_THRESHOLD
+          CATEGORIES {
+            BEERS_AND_CIDERS
+            MIXERS
+            LIQUEURS
+            SPIRITS
+            OTHERS
+            WINE
+          }
         }
       }
-      allIngredientsJson(sort: { fields: id, order: ASC }) {
+      allIngredientsJson(
+        sort: { fields: categoryName, order: ASC }
+        filter: { parentId: { ne: "0" } }
+      ) {
         nodes {
           id
+          categoryId
+          categoryName
+          parentId
+          parentName
+          title
         }
       }
     }
