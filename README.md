@@ -3,7 +3,7 @@
 A web app born out of the desire to make cocktails with friends remotely.\
 Add and see shared ingredients in real time to allow you and your friends to plan cocktails where no one has to spend a fortune on booze.
 
-**https://ready-steady-cocktail.web.app/**\
+**https://ready-steady-cocktail.web.app/** \
 **https://ready-steady-cocktail.web.app/?session=example-session**
 
 ## Tech
