@@ -17,11 +17,14 @@ export const postSession = mixologistsCount => {
   return newSessionKey;
 };
 
+export const getSessionIngredientsRef = session =>
+  db.ref(`/sessions/${session}/ingredients`);
+
+export const getSessionIngredientMixologistsRef = ({ session, ingredient }) =>
+  db.ref(`/sessions/${session}/ingredients/${ingredient.id}/mixologists`);
+
 export const getIngredient = async id =>
   await db.ref(`/ingredients/${id}`).once('value');
-
-export const getIngredientsRef = session =>
-  db.ref(`/sessions/${session}/ingredients`);
 
 export const getMixologists = async session => {
   const dbMixologists = [];
@@ -37,6 +40,9 @@ export const getMixologists = async session => {
 };
 
 export const getMixologistRef = id => db.ref(`/mixologists/${id}`);
+
+export const getMixologist = async id =>
+  await getMixologistRef(id).once('value');
 
 export const mixologistSetName = ({ name, id }) => {
   db.ref(`/mixologists/${id}`).update({

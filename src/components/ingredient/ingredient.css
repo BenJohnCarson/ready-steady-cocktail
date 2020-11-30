@@ -1,4 +1,9 @@
 .ingredient {
-  display: flex;
-  justify-content: space-between;
+  list-style-type: none;
+}
+
+.ingredient__missing-mixologist {
+  margin: 0 5px;
+  color: #a3150b;
+  font-size: 14px;
 }

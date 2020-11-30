@@ -1,9 +1,15 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { getIngredientsRef, getIngredient } from '../../services/database';
+import React, { useState, useEffect, useContext, useCallback } from 'react';
+import Select from 'react-select';
+import './commonIngredients.css';
+import {
+  getSessionIngredientsRef,
+  getIngredient,
+} from '../../services/database';
 import { useSession } from '../../hooks/useSession';
 import { MixologistsContext } from '../../context/MixologistsContext';
 import { ApplicationContext } from '../../context/ApplicationContext';
 import Ingredient from '../ingredient/ingredient';
+import { useMixologistOptions } from '../../hooks/useMixologistOptions';
 
 // TODO: This should probably live in it's own file
 const CategoryIngredientsList = ({
@@ -22,58 +28,71 @@ const CategoryIngredientsList = ({
       {commonIngredients
         .filter(ingredient => ingredient.categoryId === categoryId)
         .map((ingredient, index) => (
-          <Ingredient key={index} ingredient={ingredient}></Ingredient>
+          <Ingredient
+            key={index}
+            ingredient={ingredient}
+            showMissing
+          ></Ingredient>
         ))}
     </ul>
   );
 };
 
 const CommonIngredients = () => {
+  const {
+    constants: { CATEGORIES },
+  } = useContext(ApplicationContext);
   const [commonIngredientKeys, setCommonIngredientKeys] = useState([]);
   const [commonIngredients, setCommonIngredients] = useState([]);
-  const { session } = useSession();
   const sessionMixologists = useContext(MixologistsContext);
-  const {
-    constants: { COMMON_INGREDIENTS_THRESHOLD, CATEGORIES },
-  } = useContext(ApplicationContext);
+  const [threshold, setThreshold] = useState(sessionMixologists.length);
+  const { session } = useSession();
+  const thresholdOptions = useMixologistOptions(
+    1,
+    sessionMixologists.length
+  ).sort((a, b) => b.value - a.value);
+  const getThresholdOptionValue = useCallback(option => option.value, []);
+  const handleThresholdChange = ({ value }) => setThreshold(value);
 
   useEffect(() => {
-    const ingredientsRef = getIngredientsRef(session);
+    const sessionIngredientsRef = getSessionIngredientsRef(session);
 
-    ingredientsRef.on('value', sessionIngredientsSnap => {
+    sessionIngredientsRef.on('value', sessionIngredientsSnap => {
       let updateCommonIngredientKeys = [];
 
       sessionIngredientsSnap.forEach(ingredientSnap => {
         const mixologists = ingredientSnap.child('mixologists').val();
-        if (
-          mixologists &&
-          // TODO: Checking against length here needs to be changed to matching IDs
-          Object.keys(mixologists).length ===
-            sessionMixologists.length - COMMON_INGREDIENTS_THRESHOLD
-        ) {
+        console.log('All mixologist count: ', sessionMixologists.length);
+        console.log(
+          'mixologist with ingredient: ',
+          Object.keys(mixologists).length
+        );
+        console.log('threshold: ', threshold);
+        if (mixologists && Object.keys(mixologists).length >= threshold) {
           updateCommonIngredientKeys.push(ingredientSnap.key);
         }
       });
       setCommonIngredientKeys(updateCommonIngredientKeys);
     });
-    return () => ingredientsRef.off();
-  }, [sessionMixologists, session, COMMON_INGREDIENTS_THRESHOLD]);
+    return () => sessionIngredientsRef.off();
+  }, [sessionMixologists, session, threshold]);
 
   // TODO: Can this be extracted out to a useIngredients hook? Duplicate functionality in useMixologist
   useEffect(() => {
     if (commonIngredientKeys.length) {
       Promise.all(
         commonIngredientKeys.map(ingredientKey => getIngredient(ingredientKey))
-      ).then(data => {
-        setCommonIngredients(data.map(ingredient => ingredient.val()));
-      });
+      ).then(data =>
+        setCommonIngredients(data.map(ingredient => ingredient.val()))
+      );
     } else {
       setCommonIngredients([]);
     }
   }, [commonIngredientKeys]);
 
   return (
-    <article>
+    // TODO: Refactor to iterate over object of categories
+    <article className="common-ingredients">
       <h3>Shared Ingredients</h3>
       <CategoryIngredientsList
         commonIngredients={commonIngredients}
@@ -111,6 +130,20 @@ const CommonIngredients = () => {
       >
         <h4>Others</h4>
       </CategoryIngredientsList>
+      <Select
+        className="threshold-select"
+        placeholder="Mixologist threshold"
+        defaultValue={thresholdOptions[0]}
+        options={thresholdOptions}
+        getOptionValue={getThresholdOptionValue}
+        getOptionLabel={getThresholdOptionValue}
+        onChange={handleThresholdChange}
+      ></Select>
+      <p>
+        Change this to select how many mixologists need to have an ingredient
+        before it is shown above. Mixologists missing an ingredient are
+        displayed in red.
+      </p>
     </article>
   );
 };

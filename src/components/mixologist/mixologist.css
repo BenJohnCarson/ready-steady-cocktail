@@ -31,3 +31,7 @@
   margin-left: 0;
   max-height: 600px;
 }
+
+.mixologist__ingredient-remove {
+  margin-left: auto;
+}

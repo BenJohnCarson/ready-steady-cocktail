@@ -1,21 +1,11 @@
-import React, { useContext, useMemo, useCallback } from 'react';
+import React, { useCallback } from 'react';
 import Select from 'react-select';
-import { ApplicationContext } from '../../context/ApplicationContext';
 import { useSession } from '../../hooks/useSession';
+import { useMixologistOptions } from '../../hooks/useMixologistOptions';
 
 const SelectMixologists = () => {
   const { newSession } = useSession();
-  const {
-    constants: { MAX_MIXOLOGISTS, MIN_MIXOLOGISTS },
-  } = useContext(ApplicationContext);
-  const options = useMemo(() => {
-    let options = [];
-
-    for (let value = MIN_MIXOLOGISTS; value <= MAX_MIXOLOGISTS; value++) {
-      options.push({ value });
-    }
-    return options;
-  }, [MAX_MIXOLOGISTS, MIN_MIXOLOGISTS]);
+  const options = useMixologistOptions();
   const getOptionValue = useCallback(option => option.value, []);
   const handleOnChange = ({ value: mixologistsCount }) => {
     newSession(mixologistsCount);

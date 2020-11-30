@@ -5,6 +5,6 @@
 }
 @media only screen and (min-width: 768px) {
   .mixologist-list {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

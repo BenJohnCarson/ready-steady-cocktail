@@ -33,8 +33,15 @@ const Mixologist = ({ id }) => {
           ingredients
             .sort((a, b) => a.title.localeCompare(b.title))
             .map((ingredient, index) => (
-              <Ingredient key={index} ingredient={ingredient}>
-                <button onClick={() => removeIngredient(ingredient.id)}>
+              <Ingredient
+                key={index}
+                ingredient={ingredient}
+                className="display-flex"
+              >
+                <button
+                  className="mixologist__ingredient-remove"
+                  onClick={() => removeIngredient(ingredient.id)}
+                >
                   X
                 </button>
               </Ingredient>
