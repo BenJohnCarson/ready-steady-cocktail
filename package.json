@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ready-steady-cocktail",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A web app to help friends organize a remote cocktail making evening",
+  "version": "1.0.0",
+  "author": "Ben Carson <benjohncarson@gmail.com>",
   "dependencies": {
     "@reach/router": "^1.3.3",
     "classnames": "^2.2.6",
@@ -49,10 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/BenJohnCarson/ready-steady-cocktail"
   },
   "husky": {
     "hooks": {
