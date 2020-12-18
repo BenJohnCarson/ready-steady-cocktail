@@ -9,6 +9,7 @@ import { useSession } from '../../hooks/useSession';
 import { MixologistsContext } from '../../context/MixologistsContext';
 import { ApplicationContext } from '../../context/ApplicationContext';
 import Ingredient from '../ingredient/ingredient';
+import MissingMixologists from '../ingredient/missingMixologists';
 import { useMixologistOptions } from '../../hooks/useMixologistOptions';
 
 // TODO: This should probably live in it's own file
@@ -28,11 +29,9 @@ const CategoryIngredientsList = ({
       {commonIngredients
         .filter(ingredient => ingredient.categoryId === categoryId)
         .map((ingredient, index) => (
-          <Ingredient
-            key={index}
-            ingredient={ingredient}
-            showMissing
-          ></Ingredient>
+          <Ingredient key={index} ingredient={ingredient}>
+            <MissingMixologists ingredient={ingredient} />
+          </Ingredient>
         ))}
     </ul>
   );
