@@ -8,52 +8,12 @@
     "parentName": "Absinthe"
   },
   {
-    "id": "118",
-    "title": "Absolut vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
     "id": "3680",
     "title": "Aperol",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3583",
     "parentName": "Speciality"
-  },
-  {
-    "id": "53",
-    "title": "Bacardi Superior Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "189",
-    "title": "Beefeater",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "159",
-    "title": "Black Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "97",
-    "title": "Bombay Sapphire Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
   },
   {
     "id": "3487",
@@ -70,14 +30,6 @@
     "categoryName": "Spirit",
     "parentId": "3601",
     "parentName": "Brandy and Cognac"
-  },
-  {
-    "id": "75",
-    "title": "Butterscotch Schnapps",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
   },
   {
     "id": "171",
@@ -128,14 +80,6 @@
     "parentName": "Brandy and Cognac"
   },
   {
-    "id": "184",
-    "title": "Crown Royal",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3603",
-    "parentName": "Other Whiskey"
-  },
-  {
     "id": "63",
     "title": "Dark Rum",
     "categoryId": "SP",
@@ -184,22 +128,6 @@
     "parentName": "Rum"
   },
   {
-    "id": "615",
-    "title": "Gordon's Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "275",
-    "title": "Grey Goose Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
     "id": "455",
     "title": "Hendricks Gin",
     "categoryId": "SP",
@@ -230,54 +158,6 @@
     "categoryName": "Spirit",
     "parentId": "3583",
     "parentName": "Speciality"
-  },
-  {
-    "id": "1262",
-    "title": "Jameson Whiskey",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3602",
-    "parentName": "Irish Whiskey"
-  },
-  {
-    "id": "180",
-    "title": "Jim Beam",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3603",
-    "parentName": "Other Whiskey"
-  },
-  {
-    "id": "236",
-    "title": "Johnnie Walker Black Label",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3575",
-    "parentName": "Scottish Malt Whisky"
-  },
-  {
-    "id": "185",
-    "title": "Jose Cuervo",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3582",
-    "parentName": "Tequila and Mezcal"
-  },
-  {
-    "id": "1324",
-    "title": "London Dry Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "3557",
-    "title": "Maker's Mark Bourbon",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3603",
-    "parentName": "Other Whiskey"
   },
   {
     "id": "2",
@@ -352,14 +232,6 @@
     "parentName": "Scottish Malt Whisky"
   },
   {
-    "id": "136",
-    "title": "Smirnoff Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
     "id": "104",
     "title": "Southern Comfort",
     "categoryId": "SP",
@@ -374,14 +246,6 @@
     "categoryName": "Spirit",
     "parentId": "3581",
     "parentName": "Rum"
-  },
-  {
-    "id": "371",
-    "title": "Tanqueray Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
   },
   {
     "id": "86",
@@ -456,140 +320,12 @@
     "parentName": "Rum"
   },
   {
-    "id": "3722",
-    "title": "10 Cane Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "3668",
-    "title": "151-proof rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "139",
-    "title": "99 Bananas",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
     "id": "528",
     "title": "Absinth Red",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3587",
     "parentName": "Absinthe"
-  },
-  {
-    "id": "5244",
-    "title": "Absolut",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3813",
-    "title": "Absolut Berry Açaí Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "542",
-    "title": "Absolut Citron",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "933",
-    "title": "Absolut Kurrant",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "6844",
-    "title": "Absolut Lime",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "546",
-    "title": "Absolut Mandarin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "589",
-    "title": "Absolut New Orleans Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "539",
-    "title": "Absolut Peach",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "998",
-    "title": "Absolut Pears",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "1381",
-    "title": "Absolut Peppar",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "548",
-    "title": "Absolut Raspberry",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "1573",
-    "title": "Absolut Ruby Red",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3532",
-    "title": "Absolut Vanilla Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
   },
   {
     "id": "3772",
@@ -608,22 +344,6 @@
     "parentName": "Speciality"
   },
   {
-    "id": "7001",
-    "title": "All Spice Dram",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3603",
-    "parentName": "Other Whiskey"
-  },
-  {
-    "id": "7315",
-    "title": "Amber Glen Blended Scotch Whiskey",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3575",
-    "parentName": "Scottish Malt Whisky"
-  },
-  {
     "id": "3709",
     "title": "Amber Rum",
     "categoryId": "SP",
@@ -638,14 +358,6 @@
     "categoryName": "Spirit",
     "parentId": "3601",
     "parentName": "Brandy and Cognac"
-  },
-  {
-    "id": "634",
-    "title": "Apple Pucker",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
   },
   {
     "id": "320",
@@ -680,70 +392,6 @@
     "parentName": "Speciality"
   },
   {
-    "id": "5256",
-    "title": "Bacardi",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "251",
-    "title": "Bacardi 151",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "637",
-    "title": "Bacardi Apple",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "525",
-    "title": "Bacardi Gold",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "48",
-    "title": "Bacardi Limon",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "807",
-    "title": "Bacardi O",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "216",
-    "title": "Bacardi Razz",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "2137",
-    "title": "Bacardi Vanilla Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
     "id": "142",
     "title": "Baja Rosa",
     "categoryId": "SP",
@@ -758,30 +406,6 @@
     "categoryName": "Spirit",
     "parentId": "3583",
     "parentName": "Speciality"
-  },
-  {
-    "id": "1368",
-    "title": "Bells Whiskey",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3575",
-    "parentName": "Scottish Malt Whisky"
-  },
-  {
-    "id": "4529",
-    "title": "Berentzen Bushel & Barrel",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "4530",
-    "title": "Berentzen Icemint",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
   },
   {
     "id": "287",
@@ -800,36 +424,12 @@
     "parentName": "Vodka"
   },
   {
-    "id": "273",
-    "title": "Black Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "523",
-    "title": "Blackberry Brandy",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3601",
-    "parentName": "Brandy and Cognac"
-  },
-  {
     "id": "602",
     "title": "Blue Alize",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3577",
     "parentName": "Vodka"
-  },
-  {
-    "id": "319",
-    "title": "Blue Taboo",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
   },
   {
     "id": "352",
@@ -848,46 +448,6 @@
     "parentName": "Vodka"
   },
   {
-    "id": "447",
-    "title": "Brasilla Cachaca",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3584",
-    "parentName": "Cachaca"
-  },
-  {
-    "id": "4045",
-    "title": "Bundaberg 280 Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "3974",
-    "title": "Burnett's Fruit Punch Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "641",
-    "title": "Butter Ripple Schnapps",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "3717",
-    "title": "Cabo Wabo Blanco Tequila",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3582",
-    "parentName": "Tequila and Mezcal"
-  },
-  {
     "id": "222",
     "title": "Cachaca",
     "categoryId": "SP",
@@ -904,60 +464,12 @@
     "parentName": "Calvados"
   },
   {
-    "id": "42",
-    "title": "Canadian Club Whisky",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3603",
-    "parentName": "Other Whiskey"
-  },
-  {
-    "id": "4024",
-    "title": "Captain Morgan's Tattoo",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "3771",
-    "title": "Caramel Infused Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
     "id": "6538",
     "title": "Caramel Vodka",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3577",
     "parentName": "Vodka"
-  },
-  {
-    "id": "4846",
-    "title": "Caribbean Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "1051",
-    "title": "Cariel Vanilla Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3694",
-    "title": "Cazadores Anejo Tequila",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3582",
-    "parentName": "Tequila and Mezcal"
   },
   {
     "id": "527",
@@ -992,14 +504,6 @@
     "parentName": "Other Whiskey"
   },
   {
-    "id": "431",
-    "title": "Chivas Regal",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3575",
-    "parentName": "Scottish Malt Whisky"
-  },
-  {
     "id": "453",
     "title": "Chocolate Schnapps",
     "categoryId": "SP",
@@ -1024,112 +528,8 @@
     "parentName": "Vodka"
   },
   {
-    "id": "7542",
-    "title": "Cotswold Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "7541",
-    "title": "Cotswolds Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "1511",
-    "title": "Courvoisier Brandy",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3601",
-    "parentName": "Brandy and Cognac"
-  },
-  {
-    "id": "4499",
-    "title": "Crown Royal Black",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3603",
-    "parentName": "Other Whiskey"
-  },
-  {
     "id": "3935",
     "title": "Damson Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "3801",
-    "title": "De Kuyper Peachtree",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "3546",
-    "title": "Dewar's Scotch whisky",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3575",
-    "parentName": "Scottish Malt Whisky"
-  },
-  {
-    "id": "3510",
-    "title": "DOM Benedictine",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "7788",
-    "title": "English Spirit Cucumber Spirit",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "173",
-    "title": "Everclear",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "3691",
-    "title": "Finlandia Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3977",
-    "title": "Fluffed marshmallow vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3673",
-    "title": "G'Vine",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "4195",
-    "title": "Genever Gin",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3578",
@@ -1144,36 +544,12 @@
     "parentName": "Schnapps"
   },
   {
-    "id": "1078",
-    "title": "Goldstrike",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "3764",
-    "title": "Goslings Black Seal Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
     "id": "1537",
     "title": "Grain Alcohol",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3583",
     "parentName": "Speciality"
-  },
-  {
-    "id": "1001",
-    "title": "Grape Pucker",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
   },
   {
     "id": "726",
@@ -1200,126 +576,6 @@
     "parentName": "Speciality"
   },
   {
-    "id": "4089",
-    "title": "Green Tea Infused Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3681",
-    "title": "Grey Goose L'Orange Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "910",
-    "title": "Havana Club 7 Anos",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "1082",
-    "title": "Havana Club Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "198",
-    "title": "Hennessy Cognac",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3601",
-    "parentName": "Brandy and Cognac"
-  },
-  {
-    "id": "936",
-    "title": "Hennessy V.S",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3601",
-    "parentName": "Brandy and Cognac"
-  },
-  {
-    "id": "3699",
-    "title": "Herradura Plata Tequila",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3582",
-    "parentName": "Tequila and Mezcal"
-  },
-  {
-    "id": "2135",
-    "title": "Hot Damn",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "4036",
-    "title": "Irish Mist",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3602",
-    "parentName": "Irish Whiskey"
-  },
-  {
-    "id": "911",
-    "title": "Jamaican Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "4456",
-    "title": "Kamms & Sons",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "1497",
-    "title": "Ketel One Citroen",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3793",
-    "title": "Ketel One Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3841",
-    "title": "King Peter Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3534",
-    "title": "La Fe Absinthe",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3587",
-    "parentName": "Absinthe"
-  },
-  {
     "id": "1113",
     "title": "Lemon Vodka",
     "categoryId": "SP",
@@ -1344,108 +600,12 @@
     "parentName": "Rum"
   },
   {
-    "id": "768",
-    "title": "Malibu Mango Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "1218",
-    "title": "Malibu Passionfruit Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "691",
-    "title": "Mandarin Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "1627",
-    "title": "Mango Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "4006",
-    "title": "Mango Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "3713",
-    "title": "Martin Miller's Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "4487",
-    "title": "Monkey Shoulder Scotch Whiskey",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3575",
-    "parentName": "Scottish Malt Whisky"
-  },
-  {
-    "id": "3934",
-    "title": "Napoleon Courvoisier Cognac",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3601",
-    "parentName": "Brandy and Cognac"
-  },
-  {
-    "id": "4661",
-    "title": "Old Tom Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "4296",
-    "title": "Orange Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "748",
-    "title": "Orange Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
     "id": "266",
     "title": "Ouzo",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3583",
     "parentName": "Speciality"
-  },
-  {
-    "id": "3792",
-    "title": "Overproof Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
   },
   {
     "id": "1840",
@@ -1456,40 +616,8 @@
     "parentName": "Speciality"
   },
   {
-    "id": "871",
-    "title": "Peach Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "6768",
-    "title": "Pear vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
     "id": "20",
     "title": "Pernod",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "3879",
-    "title": "Pineapple Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "550",
-    "title": "Pisang Ambon",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3583",
@@ -1504,52 +632,12 @@
     "parentName": "Brandy and Cognac"
   },
   {
-    "id": "593",
-    "title": "Plymouth Gin",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3578",
-    "parentName": "Gin"
-  },
-  {
-    "id": "3672",
-    "title": "Poire William",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3601",
-    "parentName": "Brandy and Cognac"
-  },
-  {
-    "id": "7358",
-    "title": "Pomegranate Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "4227",
-    "title": "Pravda Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
     "id": "3912",
     "title": "Raki",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3583",
     "parentName": "Speciality"
-  },
-  {
-    "id": "1826",
-    "title": "Raspberry Sambuca",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3586",
-    "parentName": "Sambuca"
   },
   {
     "id": "31",
@@ -1568,124 +656,12 @@
     "parentName": "Vodka"
   },
   {
-    "id": "601",
-    "title": "Red Alize",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "1408",
-    "title": "Remy Martin VSOP",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3601",
-    "parentName": "Brandy and Cognac"
-  },
-  {
-    "id": "424",
-    "title": "Rootbeer Schnapps",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "1097",
-    "title": "Rose Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "919",
-    "title": "Rumple minze",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "227",
-    "title": "Russian Standard Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "2193",
-    "title": "Sagatiba Velha",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "2353",
-    "title": "Sailor Jerry's",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
     "id": "1070",
     "title": "Sake",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3583",
     "parentName": "Speciality"
-  },
-  {
-    "id": "619",
-    "title": "Sambuca (Black)",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3586",
-    "parentName": "Sambuca"
-  },
-  {
-    "id": "2283",
-    "title": "Sambuca (White)",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3586",
-    "parentName": "Sambuca"
-  },
-  {
-    "id": "306",
-    "title": "Seagrams 7 Whiskey",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3603",
-    "parentName": "Other Whiskey"
-  },
-  {
-    "id": "1382",
-    "title": "Sharbat",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "3695",
-    "title": "Sierra Resposado Tequila",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3582",
-    "parentName": "Tequila and Mezcal"
-  },
-  {
-    "id": "1047",
-    "title": "Skyy Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
   },
   {
     "id": "597",
@@ -1696,54 +672,6 @@
     "parentName": "Gin"
   },
   {
-    "id": "5245",
-    "title": "Smirnoff",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "779",
-    "title": "Smirnoff Blue Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "245",
-    "title": "Smirnoff Green Apple Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "5624",
-    "title": "Soju",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "419",
-    "title": "Sour Apple",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "344",
-    "title": "Sour Apple Pucker",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
     "id": "714",
     "title": "Sour Apple Schnapps",
     "categoryId": "SP",
@@ -1752,88 +680,8 @@
     "parentName": "Schnapps"
   },
   {
-    "id": "5255",
-    "title": "Sour puss",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "640",
-    "title": "Sour Puss Apple",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "268",
-    "title": "Sour Puss Blue",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "725",
-    "title": "Sour Puss Raspberry",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
     "id": "5246",
     "title": "Stolichnaya",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "1154",
-    "title": "Stolichnaya Blueberry",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "1215",
-    "title": "Stolichnaya Raspberry",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "850",
-    "title": "Stolichnaya Vanilla",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "429",
-    "title": "Stolichnaya Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "832",
-    "title": "Strawberry Schnapps",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "917",
-    "title": "Strawberry Vodka",
     "categoryId": "SP",
     "categoryName": "Spirit",
     "parentId": "3577",
@@ -1960,198 +808,6 @@
     "parentName": ""
   },
   {
-    "id": "654",
-    "title": "Taboo",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "1026",
-    "title": "Talisker Malt",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3575",
-    "parentName": "Scottish Malt Whisky"
-  },
-  {
-    "id": "4636",
-    "title": "Talisker Storm",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3575",
-    "parentName": "Scottish Malt Whisky"
-  },
-  {
-    "id": "3696",
-    "title": "Tequila Blu Reposado",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3582",
-    "parentName": "Tequila and Mezcal"
-  },
-  {
-    "id": "432",
-    "title": "Tequila Oro",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3582",
-    "parentName": "Tequila and Mezcal"
-  },
-  {
-    "id": "737",
-    "title": "Tequila Rose",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3582",
-    "parentName": "Tequila and Mezcal"
-  },
-  {
-    "id": "4023",
-    "title": "Tequila Rose Strawberry Cream",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3582",
-    "parentName": "Tequila and Mezcal"
-  },
-  {
-    "id": "4454",
-    "title": "The Wild Geese Whiskey",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3575",
-    "parentName": "Scottish Malt Whisky"
-  },
-  {
-    "id": "764",
-    "title": "Three Olives Cherry Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "1673",
-    "title": "Three Olives Pomegranate Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "395",
-    "title": "UV Blue",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "762",
-    "title": "Vanilla Schnapps",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "1170",
-    "title": "Watermelon Pucker",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3579",
-    "parentName": "Schnapps"
-  },
-  {
-    "id": "105",
-    "title": "West Coast Cooler",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "3973",
-    "title": "Whipped Cream Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "4025",
-    "title": "Wild Turkey - American Honey",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "278",
-    "title": "Wild Turkey Bourbon",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3603",
-    "parentName": "Other Whiskey"
-  },
-  {
-    "id": "289",
-    "title": "Woods 100 Dark Rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "3737",
-    "title": "Wray and Newphew Overproof rum",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3581",
-    "parentName": "Rum"
-  },
-  {
-    "id": "248",
-    "title": "Wyborowa Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
-    "id": "2667",
-    "title": "Yellow Chartreuse",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3583",
-    "parentName": "Speciality"
-  },
-  {
-    "id": "651",
-    "title": "Yellow Plum Brandy",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3601",
-    "parentName": "Brandy and Cognac"
-  },
-  {
-    "id": "183",
-    "title": "Yukon Jack",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3603",
-    "parentName": "Other Whiskey"
-  },
-  {
-    "id": "4107",
-    "title": "Zubrowka Bison Grass Vodka",
-    "categoryId": "SP",
-    "categoryName": "Spirit",
-    "parentId": "3577",
-    "parentName": "Vodka"
-  },
-  {
     "id": "89",
     "title": "Amaretto",
     "categoryId": "LQ",
@@ -2178,14 +834,6 @@
   {
     "id": "3802",
     "title": "Blue Curacao",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "1266",
-    "title": "Bols Blue Curacao",
     "categoryId": "LQ",
     "categoryName": "Liqueur",
     "parentId": "3607",
@@ -2328,14 +976,6 @@
     "parentName": "Fruit Liqueur"
   },
   {
-    "id": "3733",
-    "title": "St Germain Elderflow Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
-  },
-  {
     "id": "41",
     "title": "Tia Maria",
     "categoryId": "LQ",
@@ -2362,38 +1002,6 @@
   {
     "id": "5248",
     "title": "After shock",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
-  },
-  {
-    "id": "188",
-    "title": "After Shock (Black)",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
-  },
-  {
-    "id": "127",
-    "title": "After Shock (Blue)",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
-  },
-  {
-    "id": "487",
-    "title": "After Shock (Green)",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
-  },
-  {
-    "id": "326",
-    "title": "After Shock (Red)",
     "categoryId": "LQ",
     "categoryName": "Liqueur",
     "parentId": "3608",
@@ -2430,14 +1038,6 @@
     "categoryName": "Liqueur",
     "parentId": "3605",
     "parentName": "Cream Liqueur"
-  },
-  {
-    "id": "3794",
-    "title": "Amer Picon",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
   },
   {
     "id": "4053",
@@ -2479,126 +1079,7 @@
     "parentId": "3576",
     "parentName": "Whisky Liqueur"
   },
-  {
-    "id": "489",
-    "title": "Baileys Glide",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3576",
-    "parentName": "Whisky Liqueur"
-  },
-  {
-    "id": "3556",
-    "title": "Bailey's Chocolate Mint",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3576",
-    "parentName": "Whisky Liqueur"
-  },
-  {
-    "id": "4526",
-    "title": "Berentzen Apple",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "4528",
-    "title": "Berentzen Pear",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "4527",
-    "title": "Berentzen Wild Cherry",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "684",
-    "title": "Blackberry Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "665",
-    "title": "Blackcurrant Sourz",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "5247",
-    "title": "Bols",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "3687",
-    "title": "Bols Apricot",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "4289",
-    "title": "Bols Genever",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "1614",
-    "title": "Bols Strawberry",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "7369",
-    "title": "Bouka",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "1325",
-    "title": "Cape Velvet",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3605",
-    "parentName": "Cream Liqueur"
-  },
-  {
-    "id": "765",
-    "title": "Cherry Corkys",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "3749",
-    "title": "Cherry Marnier",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
+
   {
     "id": "336",
     "title": "Cherry Sourz",
@@ -2632,32 +1113,8 @@
     "parentName": "Fruit Liqueur"
   },
   {
-    "id": "1373",
-    "title": "Cola Stiffies",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3610",
-    "parentName": "Other Liqueur"
-  },
-  {
     "id": "141",
     "title": "Creme De Bananes",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3605",
-    "parentName": "Cream Liqueur"
-  },
-  {
-    "id": "488",
-    "title": "Creme De Cacao Dark",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3605",
-    "parentName": "Cream Liqueur"
-  },
-  {
-    "id": "587",
-    "title": "Creme De Cacao White",
     "categoryId": "LQ",
     "categoryName": "Liqueur",
     "parentId": "3605",
@@ -2680,104 +1137,8 @@
     "parentName": "Cream Liqueur"
   },
   {
-    "id": "3836",
-    "title": "Creme de Mure",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3605",
-    "parentName": "Cream Liqueur"
-  },
-  {
-    "id": "3746",
-    "title": "Creme de Noyaux",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3605",
-    "parentName": "Cream Liqueur"
-  },
-  {
-    "id": "3837",
-    "title": "Creme de Peche",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3605",
-    "parentName": "Cream Liqueur"
-  },
-  {
-    "id": "3798",
-    "title": "Créme de Pomme",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3605",
-    "parentName": "Cream Liqueur"
-  },
-  {
-    "id": "4649",
-    "title": "Creme De Violette",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3605",
-    "parentName": "Cream Liqueur"
-  },
-  {
-    "id": "3685",
-    "title": "Cynar",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3610",
-    "parentName": "Other Liqueur"
-  },
-  {
-    "id": "76",
-    "title": "Dooleys",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3610",
-    "parentName": "Other Liqueur"
-  },
-  {
-    "id": "3730",
-    "title": "Fernet Branca Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
-  },
-  {
-    "id": "4747",
-    "title": "Fulton's Harvest Pumpkin Pie Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3610",
-    "parentName": "Other Liqueur"
-  },
-  {
     "id": "3728",
     "title": "Ginger liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3610",
-    "parentName": "Other Liqueur"
-  },
-  {
-    "id": "2113",
-    "title": "Godiva White Chocolate Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3604",
-    "parentName": "Chocolate Liqueur"
-  },
-  {
-    "id": "3755",
-    "title": "Greenhook Ginsmiths Beach Plum Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "7368",
-    "title": "Guaro",
     "categoryId": "LQ",
     "categoryName": "Liqueur",
     "parentId": "3610",
@@ -2790,22 +1151,6 @@
     "categoryName": "Liqueur",
     "parentId": "3610",
     "parentName": "Other Liqueur"
-  },
-  {
-    "id": "8082",
-    "title": "Hpnotiq",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3610",
-    "parentName": "Other Liqueur"
-  },
-  {
-    "id": "3698",
-    "title": "Jans Herbal Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
   },
   {
     "id": "732",
@@ -2840,14 +1185,6 @@
     "parentName": "Fruit Liqueur"
   },
   {
-    "id": "3675",
-    "title": "Licor 43",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
     "id": "116",
     "title": "Lychee Liqueur",
     "categoryId": "LQ",
@@ -2858,14 +1195,6 @@
   {
     "id": "1628",
     "title": "Mango Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "3799",
-    "title": "Marie Brizard Grand Orange",
     "categoryId": "LQ",
     "categoryName": "Liqueur",
     "parentId": "3607",
@@ -2886,38 +1215,6 @@
     "categoryName": "Liqueur",
     "parentId": "3610",
     "parentName": "Other Liqueur"
-  },
-  {
-    "id": "1132",
-    "title": "Orange Curacao",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "7211",
-    "title": "Pama",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "3800",
-    "title": "Parfait Amour",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3610",
-    "parentName": "Other Liqueur"
-  },
-  {
-    "id": "2362",
-    "title": "Passionfruit Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
   },
   {
     "id": "103",
@@ -2952,24 +1249,8 @@
     "parentName": "Herb Liqueur"
   },
   {
-    "id": "1279",
-    "title": "Pineapple Sourz",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
     "id": "595",
     "title": "Raspberry Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "423",
-    "title": "Raspberry Sourz",
     "categoryId": "LQ",
     "categoryName": "Liqueur",
     "parentId": "3607",
@@ -2984,28 +1265,12 @@
     "parentName": "Fruit Liqueur"
   },
   {
-    "id": "3744",
-    "title": "Rumchata",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3605",
-    "parentName": "Cream Liqueur"
-  },
-  {
     "id": "157",
     "title": "Strawberry Liqueur",
     "categoryId": "LQ",
     "categoryName": "Liqueur",
     "parentId": "3607",
     "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "3842",
-    "title": "Strega Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
   },
   {
     "id": "3604",
@@ -3070,70 +1335,6 @@
     "categoryName": "Liqueur",
     "parentId": "0",
     "parentName": ""
-  },
-  {
-    "id": "7267",
-    "title": "Suze",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3608",
-    "parentName": "Herb Liqueur"
-  },
-  {
-    "id": "4294",
-    "title": "Swedish Punsch",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "5314",
-    "title": "Tiramisu liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3610",
-    "parentName": "Other Liqueur"
-  },
-  {
-    "id": "361",
-    "title": "Tropical Sourz",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "3710",
-    "title": "Vanilla Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "1326",
-    "title": "Walnut Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3609",
-    "parentName": "Nut Liqueur"
-  },
-  {
-    "id": "1512",
-    "title": "Watermelon Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
-  },
-  {
-    "id": "3714",
-    "title": "X Rated Fusion Liqueur",
-    "categoryId": "LQ",
-    "categoryName": "Liqueur",
-    "parentId": "3607",
-    "parentName": "Fruit Liqueur"
   },
   {
     "id": "206",
@@ -3264,56 +1465,8 @@
     "parentName": "Champagne"
   },
   {
-    "id": "193",
-    "title": "Cherry Lambrini",
-    "categoryId": "WI",
-    "categoryName": "Wine and Champagne",
-    "parentId": "3595",
-    "parentName": "Fruit Wines"
-  },
-  {
-    "id": "3731",
-    "title": "Cocchi di Torino",
-    "categoryId": "WI",
-    "categoryName": "Wine and Champagne",
-    "parentId": "3598",
-    "parentName": "Vermouth"
-  },
-  {
-    "id": "3674",
-    "title": "Dubonnet",
-    "categoryId": "WI",
-    "categoryName": "Wine and Champagne",
-    "parentId": "3595",
-    "parentName": "Fruit Wines"
-  },
-  {
-    "id": "3965",
-    "title": "Dubonnet Rouge",
-    "categoryId": "WI",
-    "categoryName": "Wine and Champagne",
-    "parentId": "3598",
-    "parentName": "Vermouth"
-  },
-  {
-    "id": "3844",
-    "title": "French Vermouth",
-    "categoryId": "WI",
-    "categoryName": "Wine and Champagne",
-    "parentId": "3598",
-    "parentName": "Vermouth"
-  },
-  {
     "id": "506",
     "title": "Ginger Wine",
-    "categoryId": "WI",
-    "categoryName": "Wine and Champagne",
-    "parentId": "3595",
-    "parentName": "Fruit Wines"
-  },
-  {
-    "id": "3679",
-    "title": "Lillet Blanc",
     "categoryId": "WI",
     "categoryName": "Wine and Champagne",
     "parentId": "3595",
@@ -3368,28 +1521,12 @@
     "parentName": "Port"
   },
   {
-    "id": "3711",
-    "title": "Noily Prat",
-    "categoryId": "WI",
-    "categoryName": "Wine and Champagne",
-    "parentId": "3598",
-    "parentName": "Vermouth"
-  },
-  {
     "id": "3767",
     "title": "Pink Champagne",
     "categoryId": "WI",
     "categoryName": "Wine and Champagne",
     "parentId": "3596",
     "parentName": "Champagne"
-  },
-  {
-    "id": "3498",
-    "title": "Red Port",
-    "categoryId": "WI",
-    "categoryName": "Wine and Champagne",
-    "parentId": "3594",
-    "parentName": "Port"
   },
   {
     "id": "3482",
@@ -3422,14 +1559,6 @@
     "categoryName": "Wine and Champagne",
     "parentId": "3599",
     "parentName": "Sherry"
-  },
-  {
-    "id": "1188",
-    "title": "Stones Ginger Wine",
-    "categoryId": "WI",
-    "categoryName": "Wine and Champagne",
-    "parentId": "3595",
-    "parentName": "Fruit Wines"
   },
   {
     "id": "3596",
@@ -3536,22 +1665,6 @@
     "parentName": "Ciders"
   },
   {
-    "id": "1572",
-    "title": "Bulmers Pear Cider",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3589",
-    "parentName": "Ciders"
-  },
-  {
-    "id": "1034",
-    "title": "Coor's Light",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3592",
-    "parentName": "Beers"
-  },
-  {
     "id": "311",
     "title": "Dry Cider",
     "categoryId": "BE",
@@ -3560,48 +1673,8 @@
     "parentName": "Ciders"
   },
   {
-    "id": "3545",
-    "title": "Frosty Jack's White Cider",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3589",
-    "parentName": "Ciders"
-  },
-  {
     "id": "201",
     "title": "Guinness",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3592",
-    "parentName": "Beers"
-  },
-  {
-    "id": "4460",
-    "title": "Lemongrass and chili beer",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3592",
-    "parentName": "Beers"
-  },
-  {
-    "id": "1179",
-    "title": "Light Beer",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3592",
-    "parentName": "Beers"
-  },
-  {
-    "id": "902",
-    "title": "Magners Cider",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3589",
-    "parentName": "Ciders"
-  },
-  {
-    "id": "470",
-    "title": "Newcastle Brown Ale",
     "categoryId": "BE",
     "categoryName": "Beer and Cider",
     "parentId": "3592",
@@ -3624,28 +1697,12 @@
     "parentName": "Beers"
   },
   {
-    "id": "977",
-    "title": "Special Brew",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3592",
-    "parentName": "Beers"
-  },
-  {
     "id": "898",
     "title": "Stout",
     "categoryId": "BE",
     "categoryName": "Beer and Cider",
     "parentId": "3592",
     "parentName": "Beers"
-  },
-  {
-    "id": "493",
-    "title": "Strongbow Cider",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3589",
-    "parentName": "Ciders"
   },
   {
     "id": "3592",
@@ -3662,22 +1719,6 @@
     "categoryName": "Beer and Cider",
     "parentId": "0",
     "parentName": ""
-  },
-  {
-    "id": "1208",
-    "title": "Tennants Beer",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3592",
-    "parentName": "Beers"
-  },
-  {
-    "id": "808",
-    "title": "White Cider",
-    "categoryId": "BE",
-    "categoryName": "Beer and Cider",
-    "parentId": "3589",
-    "parentName": "Ciders"
   },
   {
     "id": "351",
@@ -3896,14 +1937,6 @@
     "parentName": "Juices"
   },
   {
-    "id": "425",
-    "title": "Margarita Mix",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
     "id": "233",
     "title": "Orange Bitters",
     "categoryId": "MX",
@@ -3952,28 +1985,12 @@
     "parentName": "Soft Drinks"
   },
   {
-    "id": "731",
-    "title": "Rose's Lime Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
     "id": "85",
     "title": "Soda Water",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3571",
     "parentName": "Soft Drinks"
-  },
-  {
-    "id": "299",
-    "title": "Sour Mix",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
   },
   {
     "id": "1271",
@@ -4016,164 +2033,12 @@
     "parentName": "Soft Drinks"
   },
   {
-    "id": "1712",
-    "title": "Apple And Blackcurrent Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "988",
-    "title": "Apple And Mango Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "4455",
-    "title": "Apple and Rhubarb Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "7372",
-    "title": "Apple Syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
-  },
-  {
-    "id": "420",
-    "title": "Apricot Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "341",
-    "title": "Arizona Iced Tea",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "348",
-    "title": "Banana Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "3810",
-    "title": "Beetroot Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "7357",
-    "title": "Bitter End Moroccan Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
     "id": "265",
     "title": "Bitter Lemon",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3571",
     "parentName": "Soft Drinks"
-  },
-  {
-    "id": "5257",
-    "title": "Bittered Sling",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3907",
-    "title": "Bittered Sling Denman Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3908",
-    "title": "Bittered Sling Grapefruit & Hops Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3910",
-    "title": "Bittered Sling Lem-Marrakech Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3843",
-    "title": "Bittered Sling Moondog Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3909",
-    "title": "Bittered Sling Orange & Junpier Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3911",
-    "title": "Bittered Sling Plum & Rootbeer Bitteres",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3763",
-    "title": "Bittermans Grapefruit Bitter",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3686",
-    "title": "Bittermens Xocolatl Mole Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3809",
-    "title": "Black Walnut Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
   },
   {
     "id": "94",
@@ -4296,14 +2161,6 @@
     "parentName": "Syrups"
   },
   {
-    "id": "692",
-    "title": "Clamato",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
     "id": "3718",
     "title": "Clementine Juice",
     "categoryId": "MX",
@@ -4312,24 +2169,8 @@
     "parentName": "Juices"
   },
   {
-    "id": "1759",
-    "title": "Club Lemon",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
     "id": "554",
     "title": "Coconut Syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
-  },
-  {
-    "id": "3806",
-    "title": "Coconut Water Syrup",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3573",
@@ -4342,14 +2183,6 @@
     "categoryName": "Mixer",
     "parentId": "3571",
     "parentName": "Soft Drinks"
-  },
-  {
-    "id": "3892",
-    "title": "Early Grey Gomme Syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
   },
   {
     "id": "1042",
@@ -4368,46 +2201,6 @@
     "parentName": "Syrups"
   },
   {
-    "id": "4287",
-    "title": "Falernum",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
-  },
-  {
-    "id": "2236",
-    "title": "Fanta Fruit Twist",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "3757",
-    "title": "Fee Brothers Plum Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3784",
-    "title": "Fentiman's Victorian Rose Lemonada Soda",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "3812",
-    "title": "Fernet Branca Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
     "id": "1424",
     "title": "Fizzy Orange Drink",
     "categoryId": "MX",
@@ -4422,14 +2215,6 @@
     "categoryName": "Mixer",
     "parentId": "3570",
     "parentName": "Bar Stock"
-  },
-  {
-    "id": "3753",
-    "title": "Ginger bread syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
   },
   {
     "id": "3804",
@@ -4456,60 +2241,12 @@
     "parentName": "Juices"
   },
   {
-    "id": "3741",
-    "title": "Grape sodapop",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
     "id": "3769",
     "title": "Grapefruit Bitters",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3570",
     "parentName": "Bar Stock"
-  },
-  {
-    "id": "4458",
-    "title": "Green tea bitter",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "3715",
-    "title": "Guava Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "7359",
-    "title": "Hibiscus and Rosella Syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
-  },
-  {
-    "id": "442",
-    "title": "Irn Bru",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "3774",
-    "title": "Lavender Syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
   },
   {
     "id": "3807",
@@ -4544,48 +2281,8 @@
     "parentName": "Syrups"
   },
   {
-    "id": "1549",
-    "title": "Lime Coke",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "721",
-    "title": "Lime Margarita Mix",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
-    "id": "767",
-    "title": "Limeade",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "667",
-    "title": "Lucozade",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
     "id": "261",
     "title": "Lychee Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "3555",
-    "title": "Mike's Hard Berry",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3569",
@@ -4600,56 +2297,8 @@
     "parentName": "Syrups"
   },
   {
-    "id": "426",
-    "title": "Mountain Dew",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "3778",
-    "title": "Non-alcoholic Apple Cider",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "972",
-    "title": "Olive Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "1291",
-    "title": "Orange + Cranberry J20",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "3693",
-    "title": "Orange Blossom Water",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
     "id": "868",
     "title": "Orange Cordial",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "3682",
-    "title": "Orange Flower Water",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3571",
@@ -4662,22 +2311,6 @@
     "categoryName": "Mixer",
     "parentId": "3573",
     "parentName": "Syrups"
-  },
-  {
-    "id": "1619",
-    "title": "Orgeat Syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
-  },
-  {
-    "id": "3667",
-    "title": "Papaya juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
   },
   {
     "id": "238",
@@ -4712,36 +2345,12 @@
     "parentName": "Juices"
   },
   {
-    "id": "207",
-    "title": "Peach Nectar",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
     "id": "666",
     "title": "Pear Juice",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3569",
     "parentName": "Juices"
-  },
-  {
-    "id": "3805",
-    "title": "Pear Nectar",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "3928",
-    "title": "Pina Colada Mix",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
   },
   {
     "id": "594",
@@ -4760,22 +2369,6 @@
     "parentName": "Soft Drinks"
   },
   {
-    "id": "5699",
-    "title": "Pistachio Syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
-  },
-  {
-    "id": "3936",
-    "title": "Plum Bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
     "id": "218",
     "title": "Pomegranate Juice",
     "categoryId": "MX",
@@ -4790,14 +2383,6 @@
     "categoryName": "Mixer",
     "parentId": "3573",
     "parentName": "Syrups"
-  },
-  {
-    "id": "2422",
-    "title": "Powerade",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
   },
   {
     "id": "217",
@@ -4832,22 +2417,6 @@
     "parentName": "Syrups"
   },
   {
-    "id": "699",
-    "title": "Red Grape Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "4489",
-    "title": "Rhubarb bitters",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
     "id": "307",
     "title": "Ribena",
     "categoryId": "MX",
@@ -4880,36 +2449,12 @@
     "parentName": "Syrups"
   },
   {
-    "id": "1021",
-    "title": "Schweppes Bitter Lemon",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
-    "id": "3773",
-    "title": "Spiced pumpkin syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
-  },
-  {
     "id": "495",
     "title": "Strawberry Juice",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3569",
     "parentName": "Juices"
-  },
-  {
-    "id": "1744",
-    "title": "Strawberry Milkshake",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
   },
   {
     "id": "756",
@@ -4952,44 +2497,12 @@
     "parentName": ""
   },
   {
-    "id": "3726",
-    "title": "Tangerine Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "1080",
-    "title": "Tizer",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
-  },
-  {
     "id": "826",
     "title": "Tropical Juice",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3569",
     "parentName": "Juices"
-  },
-  {
-    "id": "4457",
-    "title": "Ugli Fruit Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "4115",
-    "title": "Vanilla Coke",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3571",
-    "parentName": "Soft Drinks"
   },
   {
     "id": "3705",
@@ -5000,14 +2513,6 @@
     "parentName": "Syrups"
   },
   {
-    "id": "532",
-    "title": "Velvet Falernum",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
-  },
-  {
     "id": "54",
     "title": "Vimto",
     "categoryId": "MX",
@@ -5016,60 +2521,12 @@
     "parentName": "Soft Drinks"
   },
   {
-    "id": "4069",
-    "title": "Violet Syrup",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3573",
-    "parentName": "Syrups"
-  },
-  {
     "id": "3684",
     "title": "Watermelon Juice",
     "categoryId": "MX",
     "categoryName": "Mixer",
     "parentId": "3569",
     "parentName": "Juices"
-  },
-  {
-    "id": "1535",
-    "title": "Wheatgrass Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "3739",
-    "title": "White Cranberry and Apple Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "1178",
-    "title": "White Cranberry Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "821",
-    "title": "White Grape Juice",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3569",
-    "parentName": "Juices"
-  },
-  {
-    "id": "4091",
-    "title": "Yohimbe Extract",
-    "categoryId": "MX",
-    "categoryName": "Mixer",
-    "parentId": "3570",
-    "parentName": "Bar Stock"
   },
   {
     "id": "240",
@@ -5592,14 +3049,6 @@
     "parentName": "Fruits"
   },
   {
-    "id": "3893",
-    "title": "Brown toast",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
-  },
-  {
     "id": "534",
     "title": "Camomile Tea",
     "categoryId": "OT",
@@ -5618,14 +3067,6 @@
   {
     "id": "3665",
     "title": "Celery",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
-  },
-  {
-    "id": "7221",
-    "title": "Chicken stock cube",
     "categoryId": "OT",
     "categoryName": "Other",
     "parentId": "3574",
@@ -5656,14 +3097,6 @@
     "parentName": "Home"
   },
   {
-    "id": "8014",
-    "title": "Christmas pudding",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
-  },
-  {
     "id": "1059",
     "title": "Coconut",
     "categoryId": "OT",
@@ -5674,14 +3107,6 @@
   {
     "id": "4486",
     "title": "Coffee Ice Cream",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
-  },
-  {
-    "id": "4055",
-    "title": "Dark Chocolate Powder",
     "categoryId": "OT",
     "categoryName": "Other",
     "parentId": "3574",
@@ -5712,30 +3137,6 @@
     "parentName": "Home"
   },
   {
-    "id": "1684",
-    "title": "Friji Chocolate Milkshake",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
-  },
-  {
-    "id": "4437",
-    "title": "frozen peaches",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3572",
-    "parentName": "Fruits"
-  },
-  {
-    "id": "3761",
-    "title": "Gingerbread",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
-  },
-  {
     "id": "7266",
     "title": "Grapefruit",
     "categoryId": "OT",
@@ -5760,14 +3161,6 @@
     "parentName": "Home"
   },
   {
-    "id": "1168",
-    "title": "Jelly",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
-  },
-  {
     "id": "1045",
     "title": "Kiwi",
     "categoryId": "OT",
@@ -5786,14 +3179,6 @@
   {
     "id": "387",
     "title": "Lemon Sorbet",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
-  },
-  {
-    "id": "3900",
-    "title": "Lime Popsicle",
     "categoryId": "OT",
     "categoryName": "Other",
     "parentId": "3574",
@@ -5848,28 +3233,12 @@
     "parentName": "Home"
   },
   {
-    "id": "5317",
-    "title": "Mincemeat",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
-  },
-  {
     "id": "3758",
     "title": "Natural Yoghurt",
     "categoryId": "OT",
     "categoryName": "Other",
     "parentId": "3574",
     "parentName": "Home"
-  },
-  {
-    "id": "743",
-    "title": "Orange Reef",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3611",
-    "parentName": "Alcopops"
   },
   {
     "id": "4034",
@@ -5992,38 +3361,6 @@
     "parentName": "Home"
   },
   {
-    "id": "5251",
-    "title": "Smirnoff",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3611",
-    "parentName": "Alcopops"
-  },
-  {
-    "id": "128",
-    "title": "Smirnoff Ice",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3611",
-    "parentName": "Alcopops"
-  },
-  {
-    "id": "298",
-    "title": "Smirnoff Ice (black)",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3611",
-    "parentName": "Alcopops"
-  },
-  {
-    "id": "946",
-    "title": "Smirnoff Ice Raspberry",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3611",
-    "parentName": "Alcopops"
-  },
-  {
     "id": "2194",
     "title": "Steamed Milk",
     "categoryId": "OT",
@@ -6038,14 +3375,6 @@
     "categoryName": "Other",
     "parentId": "3572",
     "parentName": "Fruits"
-  },
-  {
-    "id": "5073",
-    "title": "Strawberry Vanilla Ice Cream",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3574",
-    "parentName": "Home"
   },
   {
     "id": "3611",
@@ -6122,38 +3451,6 @@
   {
     "id": "5252",
     "title": "WKD",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3611",
-    "parentName": "Alcopops"
-  },
-  {
-    "id": "292",
-    "title": "WKD Blue",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3611",
-    "parentName": "Alcopops"
-  },
-  {
-    "id": "297",
-    "title": "WKD Clear",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3611",
-    "parentName": "Alcopops"
-  },
-  {
-    "id": "757",
-    "title": "WKD Original",
-    "categoryId": "OT",
-    "categoryName": "Other",
-    "parentId": "3611",
-    "parentName": "Alcopops"
-  },
-  {
-    "id": "213",
-    "title": "WKD Red",
     "categoryId": "OT",
     "categoryName": "Other",
     "parentId": "3611",
